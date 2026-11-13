@@ -1,0 +1,2677 @@
+{
+  "commit": "f37d12a80671a538d7265eb1739ec7c38670d2d7",
+  "commits": [
+    {
+      "author_email_sha256": "2ec9846aa81c35983fbe8f05ca33e064fdac37cd1a375bb7a60646bcb0575826",
+      "author_name_declared": "JORGE FRANCISCO PAREDES",
+      "authored_at_declared": "2026-11-13T10:57:10-08:00",
+      "sha": "f37d12a80671a538d7265eb1739ec7c38670d2d7",
+      "subject": "Fix Python escape sequences in IP SHIELD workflow"
+    },
+    {
+      "author_email_sha256": "2ec9846aa81c35983fbe8f05ca33e064fdac37cd1a375bb7a60646bcb0575826",
+      "author_name_declared": "JORGE FRANCISCO PAREDES",
+      "authored_at_declared": "2026-11-13T10:53:17-08:00",
+      "sha": "4fb388c008dbeddaa567340f215e213d384d3b62",
+      "subject": "Document AEGIS IP SHIELD provenance workflow"
+    },
+    {
+      "author_email_sha256": "2ec9846aa81c35983fbe8f05ca33e064fdac37cd1a375bb7a60646bcb0575826",
+      "author_name_declared": "JORGE FRANCISCO PAREDES",
+      "authored_at_declared": "2026-11-13T10:52:58-08:00",
+      "sha": "207bc140fefd4f17984de479089474e2aa8df8c5",
+      "subject": "Add AEGIS IP SHIELD provenance workflow"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-08-15T20:58:49+02:00",
+      "sha": "a55ae57abfd6bf5ff827d749910070cfcaa59c0f",
+      "subject": "Update"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-07-12T23:04:39+02:00",
+      "sha": "67635a04f7d60f0379d4df9b07ad398e46dbd08f",
+      "subject": "Revert \"Adapt api\""
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-07-12T22:51:53+02:00",
+      "sha": "f2bd16d079d21cb4d5ee229c02a75fb2dfdd45ba",
+      "subject": "Adapt api"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-07-12T22:02:36+02:00",
+      "sha": "8b846fa1d17f9fab16eea316939deb892b7e4d04",
+      "subject": "Fix minor issues"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-07-08T14:27:35+02:00",
+      "sha": "7abff9f9113319442f08db3fa6393f723008b593",
+      "subject": "Update to JDK 22"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-06-17T08:05:27+02:00",
+      "sha": "420c23efbcbccc6dfafc8c327b7354fbdebae6a0",
+      "subject": "Update close command"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-06-09T12:07:17+02:00",
+      "sha": "9ffaf3e43c89ee8b59efb7aaa5f249b939ab7c8b",
+      "subject": "Canonify URLs"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-05-14T06:46:01+02:00",
+      "sha": "af9619d9f765a1808d90ed3171911788ef8fb189",
+      "subject": "Add homebrew"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-05-12T20:14:00+02:00",
+      "sha": "3026277f4211d3d6b6a1cd75b221f87bb76d8e01",
+      "subject": "Improve table"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-05-12T09:48:06+02:00",
+      "sha": "515ec4d6f1fae4f52b2bdd57d03b084b21996f58",
+      "subject": "Add sha256"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-05-06T21:47:08+02:00",
+      "sha": "18bb2161f0f4fc00ef05a3afb5a8d9733c1e294e",
+      "subject": "update 4.4.0"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-04-19T16:30:44+02:00",
+      "sha": "aeef285f10ad2dca326a6afaef146fc3e6d58582",
+      "subject": "Fix guidelines"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-03-27T15:22:34+01:00",
+      "sha": "082b8c4c00d3bb956e81c3bb072c2fed0068a464",
+      "subject": "Fix anchor and minor issues"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-03-27T15:15:18+01:00",
+      "sha": "1b539d4d86241dff155f2c147973eb07fba2f936",
+      "subject": "Fix anchor and minor issues"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-03-26T17:55:13+01:00",
+      "sha": "42fae50f02e8be493d67e1103648233400dd2373",
+      "subject": "Add launch"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-03-26T10:43:08+01:00",
+      "sha": "4b457c4a78a123ee254ebd8675b58784ee48a8d8",
+      "subject": "Minor fixes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-03-26T10:26:15+01:00",
+      "sha": "7eb1120eeb915cde4083eb8b90095e09fac2e42c",
+      "subject": "Add IA"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-03-26T07:23:04+01:00",
+      "sha": "ad7a88399ded14924bbfd0189743c014eeccf30c",
+      "subject": "Add segmentation"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-02-18T16:05:49+01:00",
+      "sha": "30fd7e6eb7595f28c60692056b92d885307891a1",
+      "subject": "Update to 4.3.0"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-01-05T16:27:33+01:00",
+      "sha": "f96967079fce1464abd9df4ce7db30edafe4325b",
+      "subject": "Fix anchors"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-01-05T16:04:36+01:00",
+      "sha": "49fec8c0ef9bf1fcef089fc5d2e860b5dc79e516",
+      "subject": "Add GUI, draw and viewer 2d"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-01-03T14:47:05+01:00",
+      "sha": "cf0df9ae5636b90b96f5f4b0bb0522b359affaa1",
+      "subject": "Add LUT"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2024-01-01T17:14:49+01:00",
+      "sha": "c8345a9f978e7bcda01fb00f3c3252cd00c6f711",
+      "subject": "Update and add MIP"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-12-17T12:27:36+01:00",
+      "sha": "b3f6bbd4c310a4be60587d9b396a9a51ea276312",
+      "subject": "Minor changes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-12-09T08:42:44+01:00",
+      "sha": "6a2b298997bba6de5d106607d3a7b8a27f1fb078",
+      "subject": "Fix security issues"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-12-09T08:30:46+01:00",
+      "sha": "c39579111e109c2882942a32bc03207f81fa8ccd",
+      "subject": "Fix security issues"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-12-09T08:14:43+01:00",
+      "sha": "0c9f17eb082178fc813ee9c8023d84015dc06400",
+      "subject": "Fix minor issues"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-12-08T07:48:07+01:00",
+      "sha": "a943007079df99b2c649907c7aa4f2088d8d0087",
+      "subject": "Download warnings"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-11-12T10:09:45+01:00",
+      "sha": "c974887a93fb7fcbb7cba402e2b9bf156cd56b41",
+      "subject": "Update to 4.2.1"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-09-17T19:52:23+02:00",
+      "sha": "bdc753e86442f7f788d893a858d920db4d9884a2",
+      "subject": "Update package"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-08-24T08:36:17+02:00",
+      "sha": "17674fc6a6f3fb8e6f8fe6d35b8485a21ae65a5e",
+      "subject": "Update jsk 21"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-08-18T16:54:20+02:00",
+      "sha": "1735afdef240fb6b0606f37fc125bd8c2211916f",
+      "subject": "Update 4.2.0"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-07-14T07:31:01+02:00",
+      "sha": "451894572e95e10c4eaf657ce6f45c3227cdb93d",
+      "subject": "Windows dependency"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-24T08:27:29+02:00",
+      "sha": "59bbc8df22fd0bc5cd4b4f464f4bb01b1c5a448f",
+      "subject": "Removing static/samples from git history"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-23T08:56:43+02:00",
+      "sha": "2c67ab893ad277f64914eacd0c1decb5a8c48af3",
+      "subject": "Update gitub action"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-23T08:48:49+02:00",
+      "sha": "066093485d2c5a622a8294201177ce1ee0291349",
+      "subject": "Change build branch"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-23T08:33:58+02:00",
+      "sha": "1100860a46f43a15c673fa7f2e54db0bc71a1780",
+      "subject": "Fix branch"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-23T08:05:16+02:00",
+      "sha": "9bd8f8f0337f1d4f712f72ba14325896598dd721",
+      "subject": "Change branch to Main"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-22T20:00:21+02:00",
+      "sha": "7273a93c5386eef7a952081430731daad860d232",
+      "subject": "Change file mode to 775"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-11T11:27:18+02:00",
+      "sha": "98f98ab0f1af702dd10787b5ed0da8665a8d1014",
+      "subject": "Update icon size"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-10T18:28:41+02:00",
+      "sha": "2f4ccdd21bbbb151559ec4fcf38ceb23d6b94219",
+      "subject": "Fix trailing space"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-10T18:03:22+02:00",
+      "sha": "f8fe172add545088feb00963c07ae50019458eed",
+      "subject": "Fix trailing space"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-10T17:42:51+02:00",
+      "sha": "f6eca408e03b31ddc83f992254f1f31a153150de",
+      "subject": "Fix language issue"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-10T13:15:21+02:00",
+      "sha": "0d947c311ae411a2bad38295cb94ca9815ba60d1",
+      "subject": "Minor changes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-04T17:31:57+02:00",
+      "sha": "bc46a150d4acccdd3eeb8a080941bf9973621b0d",
+      "subject": "Minor changes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-04T12:16:28+02:00",
+      "sha": "59ce0ea20a1a5866e54ce0cd3549067734354885",
+      "subject": "Add submodule"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-04T12:01:14+02:00",
+      "sha": "7cde52ce369c3cf1d5dc14bf5d77eb2eb8b984b5",
+      "subject": "Remove public"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-04T11:30:16+02:00",
+      "sha": "4f102c19bad7cf0b0ad75fe766c96beb80283326",
+      "subject": "Add github action"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-06-04T11:08:18+02:00",
+      "sha": "7cbff2273e97e104f6cce22f649eb674e0575a53",
+      "subject": "Change domain"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-05-22T09:47:41+02:00",
+      "sha": "9b26b1d79e8b569325852e2a8a7edab0d6f06579",
+      "subject": "Typo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-05-08T21:06:44+02:00",
+      "sha": "8a585d6fe418ef04978e5c958a9b61427b494ce8",
+      "subject": "Fix launch 3d"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-05-08T20:22:53+02:00",
+      "sha": "c8b004eb62450cd9f04eebefb1b4016e18c05f7f",
+      "subject": "Add 3d and ECG documentation"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-05-05T13:25:00+02:00",
+      "sha": "b00dc2b1182a7c0d05be6313b056e2a2e140979d",
+      "subject": "Update"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-05-01T08:16:25+02:00",
+      "sha": "453014a3c1ee0946eef078cd5c47492fd11e52c2",
+      "subject": "Update"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-04-30T09:57:14+02:00",
+      "sha": "c44224cc6f553fea4ba9f6b1dc82a6e9d7b05a9f",
+      "subject": "Add MPR documentation"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-04-26T09:49:12+02:00",
+      "sha": "7715f32dae73820848451c6d1f12053d6f5dbad4",
+      "subject": "Update documentation for 4.1.0"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-04-10T22:42:57+02:00",
+      "sha": "56f89f6af51394375beefb99551b274e171cc276",
+      "subject": "Fix gallery display"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-04-10T14:40:00+02:00",
+      "sha": "50cddfcfa4c934d731587a0e3797443109e0d144",
+      "subject": "Update build weasis"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2023-04-06T12:24:48+02:00",
+      "sha": "971752412ad0fd0b42699baa580f6f8ac47993cf",
+      "subject": "set dark as default"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-11-15T08:44:07+01:00",
+      "sha": "5ff96c930b12bb932d001038d152dfc12c8a3440",
+      "subject": "Fix wrong download url"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-11-14T22:47:50+01:00",
+      "sha": "8d5edcaf1a6bc66f6daa941bd6eb90b0ca5f4255",
+      "subject": "Update title"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-11-08T19:04:11+01:00",
+      "sha": "396da673edfd56bfe3358fd4e6b18f0da97134bf",
+      "subject": "Merge pull request #4 from firasuke/patch-1"
+    },
+    {
+      "author_email_sha256": "f06a0a14c9b18ccf074955d4c3ce3a6aa6061770c703038fbe45c8799393f934",
+      "author_name_declared": "Firas Khalil Khana",
+      "authored_at_declared": "2022-11-08T20:13:04+03:00",
+      "sha": "1793babea9a35bf45dfb07fc7389e090ef15ca5c",
+      "subject": "Fix some typos"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-09-09T08:26:02+02:00",
+      "sha": "c3bb81d13abbe867be1e5ed766edad3e8777657d",
+      "subject": "Merge remote-tracking branch 'origin/hugo' into hugo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-09-09T08:19:55+02:00",
+      "sha": "2262152902569021ef890f24c0199723e7c8c88b",
+      "subject": "Update zoom"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-08-01T23:45:51+02:00",
+      "sha": "408b109af73bfc1402c7bd9c6a0f79aca26a6af2",
+      "subject": "Update version"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-07-28T10:47:51+02:00",
+      "sha": "05ee5e23ba9300286b2a8dac390c3061278a83f4",
+      "subject": "Update building-weasis.en.md"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-07-07T21:04:53+02:00",
+      "sha": "0fc5721ed4c089d3d3e640b4f930383b887ad613",
+      "subject": "Update google tag"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-07-02T18:55:25+02:00",
+      "sha": "4a7fc657a845af71f068f2fba971b590381c08cc",
+      "subject": "Update main page"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-06-19T23:53:38+02:00",
+      "sha": "6d4dfc3f3a465108cd3fb537e1b90f97773892d0",
+      "subject": "Update DICOMWeb"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-06-19T23:10:20+02:00",
+      "sha": "67aa746d9f276211f07f96286bf9d1d925577510",
+      "subject": "Add DICOMWeb"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-06-17T19:36:52+02:00",
+      "sha": "1c5cc3ad4a156581964ba61e7442040eebac28d9",
+      "subject": "Update to 4.0.1"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-06-06T18:32:10+02:00",
+      "sha": "abca2f6c797a6011c62a627afa4344898aba1f2e",
+      "subject": "Fix bash"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-06-06T18:16:43+02:00",
+      "sha": "8e68ae650e18c96eec17e2c66db7cc62549c53f4",
+      "subject": "Update translation and building weasis"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-05-15T09:37:53+02:00",
+      "sha": "6b37f6babef6bb9975953fff05e31dcab7cabf78",
+      "subject": "Add json api"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-04-24T22:51:50+02:00",
+      "sha": "c3972dfda5224115d3caa1f440a3df376ca555f6",
+      "subject": "update config"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-04-24T22:37:32+02:00",
+      "sha": "809943e78d220e9e9a556939894b3347e8135933",
+      "subject": "update config"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-04-24T21:32:54+02:00",
+      "sha": "a54942f612956274c703b7a4a8958dbd84ad2356",
+      "subject": "Update documentation to version 4"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-04-16T22:52:45+02:00",
+      "sha": "9baabd6f9318628068a47439f0bc5d19cc12b388",
+      "subject": "Update documentation to version 4"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-04-16T07:54:35+02:00",
+      "sha": "2c5b0f5757b8ba85e628b8342c429cfa261ece05",
+      "subject": "Redesign for relearn theme"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-04-15T08:18:39+02:00",
+      "sha": "2b65f6bf8bce4d8084635953de3d440123b9b296",
+      "subject": "Change to relearn theme"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-02-12T09:09:34+01:00",
+      "sha": "ae67d0502031353cd82eace00b7ed59521a0ab53",
+      "subject": "Merge pull request #3 from albanobattistella/patch-1"
+    },
+    {
+      "author_email_sha256": "72b367708a5d1a93f0084f5019be06eca9470da6a1fa35be04dadf28e3b2971d",
+      "author_name_declared": "albanobattistella",
+      "authored_at_declared": "2022-02-08T22:32:50+01:00",
+      "sha": "8ab8ee2830ddbf1dc15a87aba8e520223ce00885",
+      "subject": "Create it.toml"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-02-06T10:36:50+01:00",
+      "sha": "6e8cddb14c0890d7ce061db06266e338af290cb3",
+      "subject": "Update download requirement"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-02-06T10:32:51+01:00",
+      "sha": "ff851ea0a5caeeb00c5e2af304a38f6a427fc8b3",
+      "subject": "Update download information"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-02-04T22:15:28+01:00",
+      "sha": "b493bbfa3afaacbe7c738ed9551ea47ac74cf078",
+      "subject": "Merge branch 'hugo' of https://github.com/nroduit/nroduit.github.io into hugo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2022-02-04T22:13:03+01:00",
+      "sha": "7ede374a23357493f511cd46b0cdd3521bdfb3c3",
+      "subject": "Update dicom explorer"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-12-22T23:32:37+01:00",
+      "sha": "606681ec4fb22015710c8b570a9f709c460c5497",
+      "subject": "Merge pull request #2 from alcir/patch-1"
+    },
+    {
+      "author_email_sha256": "614b820b4858bf877566255c8126286f39536cf4cc1a85010923262801aa563e",
+      "author_name_declared": "Alessio",
+      "authored_at_declared": "2021-12-22T21:52:09+01:00",
+      "sha": "5a3567660d1cd5855f1f537e1de9ea3781e424a3",
+      "subject": "Update download.en.md"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-10-31T22:29:09+01:00",
+      "sha": "9c67203f3ca333475466feec75b99e19c9aa75e2",
+      "subject": "minor changes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-10-31T22:28:26+01:00",
+      "sha": "21f233da1b35139bb4fe0dc5a1c066fc50e3c633",
+      "subject": "minor changes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-06-06T22:43:53+02:00",
+      "sha": "834dbaf7be618a30a18c0f4674b813159fadf5c5",
+      "subject": "Fix arm comment"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-06-06T22:26:11+02:00",
+      "sha": "ac230572047a3abe2c5c7bd182ee7cd9cfdc258e",
+      "subject": "Add DICOM import"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-05-23T17:11:52+02:00",
+      "sha": "c1bce39733cfd753c975f374ee89ef472ae5ca18",
+      "subject": "Add download page"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-05-22T21:16:01+02:00",
+      "sha": "b9cbeda6534b73d613e960f5f4b494963b904ef4",
+      "subject": "Update guidlines"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-05-22T21:09:52+02:00",
+      "sha": "c4dca8ffa10ce33c5077141df7ae51a57e040dd5",
+      "subject": "Update guidelines"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-01-10T22:28:25+01:00",
+      "sha": "edd45eb6f34bb95dd4055232eb77787a1549c724",
+      "subject": "Update doc"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-01-10T22:28:09+01:00",
+      "sha": "8f20d8f84526c6788582585c2066f0939ef97120",
+      "subject": "Update doc"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2021-01-06T15:46:24+01:00",
+      "sha": "5f4554f6f0202440c4d6ecf5f2646d559fe3cf43",
+      "subject": "Update doc"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-11-21T16:44:23+01:00",
+      "sha": "1af45e9dc4a5091aa5eae6b3a9faa599ccbc5e7d",
+      "subject": "Fix path"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-11-21T16:31:30+01:00",
+      "sha": "8a2da4d86cb341e4ff6f10c0bef0288d0cfe077c",
+      "subject": "Add manifest for samples"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-11-21T09:58:27+01:00",
+      "sha": "e1d879c34f75d52993fb31d40d8c8a5491863047",
+      "subject": "Add samples"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-09-27T17:11:46+02:00",
+      "sha": "cb7804d6cd542b4d8e7c3332aa314bf69fc2706e",
+      "subject": "Add dicom explorer"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-09-09T12:48:09+02:00",
+      "sha": "db772354eb1a3aa31a9e6ec572bf03f7b26419f9",
+      "subject": "Update demo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-08-27T19:25:23+02:00",
+      "sha": "84c45e50531546ca287ff8eef35bb7643ca790e2",
+      "subject": "Update demo to 3.6.2"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-08-06T16:33:45+02:00",
+      "sha": "0f5e2c8da2743832325cbd078cbd2ffc5d76453a",
+      "subject": "Build update"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-07-29T19:39:27+02:00",
+      "sha": "a329c0264e2850d1f4e7e959970c8613cea5a00f",
+      "subject": "Add how to find logs"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-07-10T22:58:10+02:00",
+      "sha": "6cd2a6f7d3ddfe823a8ffcd79940f79b2b45203d",
+      "subject": "Update demo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-07-05T19:09:56+02:00",
+      "sha": "ebcd3d515d6a49c22b94301e997fdc2426c5c997",
+      "subject": "Update 3.6.1"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-06-13T10:44:22+02:00",
+      "sha": "458cfe96379a79962e8b3396b5375b80bd0539c3",
+      "subject": "fix image link"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-06-04T17:21:12+02:00",
+      "sha": "51b6b9dedacce21251c7bd82e14d85c61f4b62a7",
+      "subject": "Add target"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-06-02T08:04:21+02:00",
+      "sha": "517522528b61cd351b822a2216eb975fe3d7d3ee",
+      "subject": "Fix target parameter"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-06-01T19:28:14+02:00",
+      "sha": "5da04896edc92a55d0fbae71a63dd79023c4cd73",
+      "subject": "Remove target option"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-06-01T19:07:50+02:00",
+      "sha": "9d1a94de98fd3a8fd109815e84111128140760dd",
+      "subject": "Fix typo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-06-01T15:37:17+02:00",
+      "sha": "3b95137d118ceb2b1bcc52039f8d7d8c95fb7d1f",
+      "subject": "Merge branch 'hugo' of https://github.com/nroduit/nroduit.github.io into hugo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-06-01T14:34:20+02:00",
+      "sha": "e8d8ceba1809c7053f70086b2af09c19f0c00a49",
+      "subject": "Merge pull request #1 from arvgord/update-build-plugis-page"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-06-01T14:05:33+02:00",
+      "sha": "521ebf3afcf2854238472e9677f0badf744234f3",
+      "subject": "Add note"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-06-01T13:57:39+02:00",
+      "sha": "1735e86233db073e4963c22775b61bf248467f37",
+      "subject": "Udpate dcm4chee-arc-light 5.22.2"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-05-31T21:57:12+02:00",
+      "sha": "27aa5024ced92f42a22b6f8445eac1847e53133f",
+      "subject": "update theme"
+    },
+    {
+      "author_email_sha256": "02068e6ccc538370c9765f60497781b62708b00ad1184095d44ff3309b881787",
+      "author_name_declared": "Artyom Gordiyenko",
+      "authored_at_declared": "2020-05-28T18:05:18+07:00",
+      "sha": "547b48039ec91983701d5a8b81dabb2ec47516e0",
+      "subject": "feat: update Build Plug-ins page"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-05-11T23:01:58+02:00",
+      "sha": "261fe30845c5b9f79872a8059dfe5c02719a432a",
+      "subject": "Update server route"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-03-21T17:35:24+01:00",
+      "sha": "332aef15a30627513e707534ee05e39920c23442",
+      "subject": "Update dcm4chee-arc integration"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-03-12T08:39:23+01:00",
+      "sha": "bf6b3c1a453e16a2e678ffe6b3a5195a5d362a74",
+      "subject": "Update faq"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2020-03-07T20:10:36+01:00",
+      "sha": "a5332414c2e8f488b58bf3f6ea889d2d9b3e3e3e",
+      "subject": "Update to 3.6.0"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-17T19:57:29+01:00",
+      "sha": "9ecae62622081c4d7dd9c241b5c8016f044fbb90",
+      "subject": "ignore submodule"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-17T19:55:56+01:00",
+      "sha": "ee99f180f6a5f24b5b45c2bbd66f0b62891b8e52",
+      "subject": "fix deploy"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-17T17:36:56+01:00",
+      "sha": "cf9e3fe70c962984e30b03b8b82cd3819ce07ecb",
+      "subject": "Merge branch 'hugo' of https://github.com/nroduit/nroduit.github.io.git into hugo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-17T17:36:16+01:00",
+      "sha": "dba501423c4a0543f8d1cbb98c4df964f96e73f0",
+      "subject": "Update demo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-04T09:26:40+01:00",
+      "sha": "59a79230d488ff162b79c455e4db116eba4920b2",
+      "subject": "Fix missing quotes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-02T18:42:00+01:00",
+      "sha": "2fea5c24fb2cff3ffb9f47e38506755d738268c9",
+      "subject": "update doc"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-02T17:24:34+01:00",
+      "sha": "2d33ff2a86f40e4f6b32136ab2c15130edfbb746",
+      "subject": "fix subporject public isssue"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-02T17:10:35+01:00",
+      "sha": "636f76f1fa64e88544be2b71a755317a3c075713",
+      "subject": "update doc"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-02T12:29:21+01:00",
+      "sha": "00bb9c963ab15f8acf9d26c622001f3c2462fcb5",
+      "subject": "update theme"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-11-01T19:47:06+01:00",
+      "sha": "9db924eaf2e804aade8a317f88baa18f5b2e0ed5",
+      "subject": "Update release"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-09-18T02:25:23+02:00",
+      "sha": "a80862ca402b3f812c254bc638327572892751f2",
+      "subject": "Update demo server"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-08-11T22:56:02+02:00",
+      "sha": "237fb6e515a25e0982eab7ab17d5bde5634a3322",
+      "subject": "Minor update"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-08-10T22:17:56+02:00",
+      "sha": "600ac61f33d6794073cc38d3940f94cba0a42909",
+      "subject": "Update release 3.5.3"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-07-20T08:48:34+02:00",
+      "sha": "f2180e3362e73099a1c17abe9eeac16b90b1e305",
+      "subject": "Update openshift URL"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-07-13T09:49:22+02:00",
+      "sha": "4c6da33e5047c20b32d393c85328322bb94a0aaf",
+      "subject": "Update dcm4chee"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-07-13T00:52:53+02:00",
+      "sha": "95423ecdc1b725560893ea178e986cdcbf55ef3f",
+      "subject": "Update dcm4chee installation"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-07-12T12:06:51+02:00",
+      "sha": "6f49d9951f1c99241ae0d2748052807a37846b8b",
+      "subject": "Update the documentation according the features of weasis 3.5"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-06-22T10:29:17+02:00",
+      "sha": "4a34601762a575944a491708cb03e0294a8d3886",
+      "subject": "Merge branch 'hugo' of https://github.com/nroduit/nroduit.github.io.git into hugo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-06-22T10:28:31+02:00",
+      "sha": "d62955c89a70508f71095c3517e69bf79c3f4d6b",
+      "subject": "Handle svg"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-06-12T18:44:36+02:00",
+      "sha": "cc7c5ded437fdd8ef694bfefe98b11be522ec619",
+      "subject": "add weasis protocol"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-06-08T12:04:49+02:00",
+      "sha": "7bc735a2d3266c08446fad6c973837f0cf3a5139",
+      "subject": "Fix highlight issues. Add histogram page"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-05-30T17:39:59+02:00",
+      "sha": "30f6d44d8b7622e9f3c8372c32e951d73062457c",
+      "subject": "Adapt theme changes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-05-30T17:39:19+02:00",
+      "sha": "92a3bf8727db34195c055da2d3437c5cf4e9a6bb",
+      "subject": "Update theme"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2019-01-18T08:44:06+01:00",
+      "sha": "cd88f9d5251353012266ac74c0d497c60e4afb84",
+      "subject": "Update demo url"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-11-02T17:14:19+01:00",
+      "sha": "56c6aed1b016045b949b7d7b95304660e1c599d9",
+      "subject": "Update version of pacs-connector"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-09-17T20:37:22+02:00",
+      "sha": "3098e431347d256bfd5df1bc36a9645b604ba2ee",
+      "subject": "Merge branch 'hugo' of https://github.com/nroduit/nroduit.github.io.git into hugo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-09-17T20:37:06+02:00",
+      "sha": "f9dde1c08e7ab94644d8fe821a4c16c988d8e87f",
+      "subject": "Update demo to 3.0.2"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-08-29T09:30:00+02:00",
+      "sha": "a07fc02f4ef627535edc4a4ef9f0284d45b2ed4d",
+      "subject": "Update readme"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-08-29T06:34:52+02:00",
+      "sha": "c7fdf3f4bf936227ac93ce47c3500686fc01f2fa",
+      "subject": "Add new shortcuts"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-05-14T22:47:40+02:00",
+      "sha": "21ff156855349ba34386cd67919241a365563354",
+      "subject": "Update demo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-05-11T09:46:16+02:00",
+      "sha": "205bf0901fd767d43427beaee3325a48cc8644d6",
+      "subject": "Add print tutorial"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-05-10T15:49:29+02:00",
+      "sha": "20ff367051447514d68a77f23042659ba015ba76",
+      "subject": "Add dicom attributes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-05-03T18:50:11+02:00",
+      "sha": "c41d41e2a6d059aafb8f7b0afb1b6211e955fa56",
+      "subject": "Add zoom tuto"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-04-21T14:03:05+02:00",
+      "sha": "4aff1adb50d8d0be85b8174e3b56ed560ac00f58",
+      "subject": "Update home and dcm4chee. Spell check."
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-04-10T20:30:58+02:00",
+      "sha": "6edc73a8ef29ea4ce3f586109e67e6c94789493d",
+      "subject": "Fix note"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-04-10T18:30:33+02:00",
+      "sha": "ab467a9401a50d1a6b4a73f050af7caec42a1943",
+      "subject": "Add tutorials"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-03-18T18:03:51+01:00",
+      "sha": "c8012aa50c11dc2b17cfb3ae9c9c605d1b3b66b8",
+      "subject": "Fill the page of stories"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-03-14T19:41:03+01:00",
+      "sha": "b232530ffdc989869d5ba30e1f0bcbad76e0ed50",
+      "subject": "Update demo"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-01-07T11:13:13+01:00",
+      "sha": "afe9508f3a15c3fb0b866d58d563bf3616bfb03e",
+      "subject": "Add some meta and minor fixes"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-01-07T09:51:51+01:00",
+      "sha": "b4ce67106380499f1aaf43928973c0e248a00544",
+      "subject": "Change log display and meta description and keywords"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-01-06T10:53:57+01:00",
+      "sha": "ea8f1df2378c9c3dd664dcfdb755cbe95acd49cc",
+      "subject": "Fix broken link"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-01-06T09:41:50+01:00",
+      "sha": "610f35e95e2b3593afaecc5f4c0f2be07a408e43",
+      "subject": "Fix logo size, add readme"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-01-05T19:07:50+01:00",
+      "sha": "dec838d0dfd6fb5c57e711c016343e9dd358b68c",
+      "subject": "Fix menu footer"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-01-05T18:24:13+01:00",
+      "sha": "d9bced1ae590ca403b3d0eb837022f79c6ea3991",
+      "subject": "Fix minor issues"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2018-01-05T15:55:45+01:00",
+      "sha": "43db5eb53c4905b8fc2eb98e19a326baf952b377",
+      "subject": "Migrate website from Confluence"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2017-12-31T10:35:14+01:00",
+      "sha": "c3e458b4ee300f332c45ddc90cdfb5db3cf14754",
+      "subject": "Update LICENSE"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2017-12-28T16:58:59+01:00",
+      "sha": "29212ed73c99d38c520ebea8902f2730682f3004",
+      "subject": "change gitignore"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2017-12-28T16:45:14+01:00",
+      "sha": "93f45b49eea33cca07dc1a0c8d0b66415bf4ed91",
+      "subject": "add script"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2017-12-28T16:07:17+01:00",
+      "sha": "8dd90aea1de45cf002d7fbad88be74b3e11be519",
+      "subject": "Add content"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2017-12-28T15:38:32+01:00",
+      "sha": "339b442ce7be0bde97e7462d9430c80f8f14591d",
+      "subject": "hugo theme learn"
+    },
+    {
+      "author_email_sha256": "73ca21081553d01b745eabfde35e5367de3480d2d9496ddd9212534bd439048a",
+      "author_name_declared": "Nicolas Roduit",
+      "authored_at_declared": "2017-12-27T18:14:24+01:00",
+      "sha": "4d27e38beb8da287b80d0b46ea83199891a1bda0",
+      "subject": "Initial commit"
+    }
+  ],
+  "file_count_recorded": 234,
+  "file_inventory_truncated_at_25000": true,
+  "files": [
+    {
+      "git_blob_oid": "496523ebf8a2f8179732701a82e626efb6977e8c",
+      "mode": "100644",
+      "path": ".github/workflows/aegis-ip-shield.yml",
+      "sha256": "6b128bd094d276f1cbe06adb086ac00a7489b6131663092ec8ffe077d54ac56b"
+    },
+    {
+      "git_blob_oid": "d22eaa9874d0f33c80c5389c1cf8426d9fa65fac",
+      "mode": "100755",
+      "path": ".github/workflows/hugo.yaml",
+      "sha256": "52887ed30d050b0c8cf04125bf1e017a18be2697d112d352c6f89a15781441d4"
+    },
+    {
+      "git_blob_oid": "21c4c1b20e24733ac3a8f280f83384d451949b47",
+      "mode": "100755",
+      "path": ".gitignore",
+      "sha256": "f44c72b775e834b5757d744fd155acb7340348d3d9ce4dc9e45c594dc6519e40"
+    },
+    {
+      "git_blob_oid": "da73cea8f414be7fba944cd997ddfacba0340cea",
+      "mode": "100755",
+      "path": ".gitmodules",
+      "sha256": "74102ae4aed3ae7fd98cf947b7e5429b3e16599be869604b564cb9e8b9d71e29"
+    },
+    {
+      "git_blob_oid": "5f15a939acb359da7022af8a6525634803ceae87",
+      "mode": "100755",
+      "path": "LICENSE",
+      "sha256": "2b72ed9aba9f5c98059d8f20a880eb99e89f39573f6959b4c14bcd6cd0c43184"
+    },
+    {
+      "git_blob_oid": "43d78cc58b04ba3f63c4a3db8235ceb17427846e",
+      "mode": "100755",
+      "path": "README.md",
+      "sha256": "5dfa5439d79640e08345c3c32f58c483d934c4fe331c9928dc46d15d08c2236a"
+    },
+    {
+      "git_blob_oid": "1b1d9cf29265c84573fd0a4780d018d9519a16ea",
+      "mode": "100755",
+      "path": "assets/gallery1/Color Histograms.jpg",
+      "sha256": "865f3cf0abd23ffe77b8561d37ccbba401e89830f50090a057bcd6e6927df949"
+    },
+    {
+      "git_blob_oid": "627f963cb3c84371f52d6db4d716cb7c5aa0c75c",
+      "mode": "100755",
+      "path": "assets/gallery1/Exporting DICOM.jpg",
+      "sha256": "7c8548a2fb5d1c591174be08f239569d1b9c9680cae2a2ca7b7f446d99dd8f80"
+    },
+    {
+      "git_blob_oid": "7940290843555f687a218b1585fe0c739c0925ae",
+      "mode": "100755",
+      "path": "assets/gallery1/Measurement tools.jpg",
+      "sha256": "fc2d6b6e177500b73bc1ca88661d03c729f45a60a5ad9e1505c148d2db16e7d3"
+    },
+    {
+      "git_blob_oid": "f4136a5f0f97f312dfefce7458e83de471dd11f1",
+      "mode": "100755",
+      "path": "assets/gallery1/Orthogonal Multiplanar Reconstruction.jpg",
+      "sha256": "c0c9ee5d17c1cde52ff94c6c235379537c88941b3032e7b866b1fb2649f5c458"
+    },
+    {
+      "git_blob_oid": "54726fe380c8232f9ca79e32495965451f2a63e9",
+      "mode": "100755",
+      "path": "assets/gallery1/Pseudo-color.jpg",
+      "sha256": "8b3f8307a879eb1fe83ed0dd4888a536e744e0898513b0ff3a00840f3c442cc7"
+    },
+    {
+      "git_blob_oid": "91b3a91b1c8cf48d61cec4a589e97f0a55d24bb3",
+      "mode": "100755",
+      "path": "assets/gallery1/User Interface Language.jpg",
+      "sha256": "3cf3d28b0bf31e3c81a2168252bd6fb7e482c8dbab8d0ba9a4760fb98b118879"
+    },
+    {
+      "git_blob_oid": "cbc96429fdb240e753d93c867f6718f2768796ad",
+      "mode": "100755",
+      "path": "assets/gallery2/Cross-reference lines.jpg",
+      "sha256": "503f6c42e963150a0442d484bcf536cff539a366247311008bbebd6251351430"
+    },
+    {
+      "git_blob_oid": "765b6b9c534445077c8adf8e09df86b55eaf17ab",
+      "mode": "100755",
+      "path": "assets/gallery2/DICOM Attributes.jpg",
+      "sha256": "9ce7ad4326bce273a09da98013fc5ad9cf6bb8f96aff8d8318e5dfa25913a6f2"
+    },
+    {
+      "git_blob_oid": "182b72fa65712a79270421a0ce5554ef32a3ea69",
+      "mode": "100755",
+      "path": "assets/gallery2/DICOM Structured Report.jpg",
+      "sha256": "78af1b1e14754c27d49a1688fbed317432346c211bb4a17779a13a5e99d8e73c"
+    },
+    {
+      "git_blob_oid": "b6d4e9608b11dcee95b4c1c386bf582b7aeb353c",
+      "mode": "100755",
+      "path": "assets/gallery2/Dicomizer.jpg",
+      "sha256": "95667bc86997641a96034aee3a23fc59a41fb6271033c18a54799d5537ae8642"
+    },
+    {
+      "git_blob_oid": "4b72647beee42f26170178e1b4f9a9838c3f2cef",
+      "mode": "100755",
+      "path": "assets/gallery2/Display DICOM RT (Radiotherapy).jpg",
+      "sha256": "264cbab82efb836e5cec3985d3b670587e65444f9cb860725237511fd43c2f16"
+    },
+    {
+      "git_blob_oid": "76fdf55436ea87c18aecc4b005756a97e53e6ece",
+      "mode": "100755",
+      "path": "assets/gallery2/Display DICOM Waveforms.jpg",
+      "sha256": "4bd59718fcc2885c4ebe5972632a198151cf38bf93966f14a2734c6cc0e4f347"
+    },
+    {
+      "git_blob_oid": "528a8f7f2b946f55eba4afce8d5aa5a1f028cfa8",
+      "mode": "100755",
+      "path": "assets/gallery2/Download Manager.jpg",
+      "sha256": "35aee54271c9e260bf44b756b02ac4cb2f9c051979c872620ca483c5a706fa80"
+    },
+    {
+      "git_blob_oid": "627f963cb3c84371f52d6db4d716cb7c5aa0c75c",
+      "mode": "100755",
+      "path": "assets/gallery2/Exporting DICOM.jpg",
+      "sha256": "7c8548a2fb5d1c591174be08f239569d1b9c9680cae2a2ca7b7f446d99dd8f80"
+    },
+    {
+      "git_blob_oid": "5d3ac9dccf37124cccf0d43f617e5bc018fe204c",
+      "mode": "100755",
+      "path": "assets/gallery2/Image Histogram.jpg",
+      "sha256": "ec058dc69b455c5aaf275d92587a92926b7469e719aad67e2b4578c772c2071c"
+    },
+    {
+      "git_blob_oid": "107c11165b83c772176f18cc9451eec53762e808",
+      "mode": "100755",
+      "path": "assets/gallery2/Importing DICOM.jpg",
+      "sha256": "50f46a86b3a3c0806c59119193160be5d900c1495259170093e2ff1834762c2d"
+    },
+    {
+      "git_blob_oid": "efa46e50e6131951787c327acb0dcba43f751e45",
+      "mode": "100755",
+      "path": "assets/gallery2/Lens on View.jpg",
+      "sha256": "399ff8915c56139b306ea0185aa94bb3e7ab5680ee896ffce60fe65ca4b7f9d0"
+    },
+    {
+      "git_blob_oid": "937ef469c72a4553537b1d9e800ac4106dbba6d5",
+      "mode": "100755",
+      "path": "assets/gallery2/Split Series and Presentation State.jpg",
+      "sha256": "e499a4f2b9bafecee95cb9d0350a7a35b283e66d9938772e751cdf281ff963e2"
+    },
+    {
+      "git_blob_oid": "c7b717871bf2dc6694fa9125042d4b3c31710af4",
+      "mode": "100755",
+      "path": "config.toml",
+      "sha256": "736c297d57e33c6a7fa10947ac06f56342fae44e456eaa6910674d5d9c785af1"
+    },
+    {
+      "git_blob_oid": "4543169987f41530127767159cfe1a461867298c",
+      "mode": "100755",
+      "path": "content/_index.en.md",
+      "sha256": "fc11cbc44baa2d02e40443e171930b7abbc6e2db56093c0470cfa09daf20e4e2"
+    },
+    {
+      "git_blob_oid": "db007026e3fd6d7337fe582158bf053b548e2f1a",
+      "mode": "100755",
+      "path": "content/_index.fr.md",
+      "sha256": "6398e86c6723294c3f445557eaaa494b556434ca8897016ef2f6d193041ffc4b"
+    },
+    {
+      "git_blob_oid": "fc62137f659691abb926a77f2b328e9b8264ae5b",
+      "mode": "100755",
+      "path": "content/api/_index.en.md",
+      "sha256": "4b54c5b6b27c786f8394ff7270cde48fdcc4b350dfda456f3707e5138b5e6dba"
+    },
+    {
+      "git_blob_oid": "ac3deef058c7f55876d676f376b273d2489bc397",
+      "mode": "100755",
+      "path": "content/api/release.md",
+      "sha256": "be7923ecd2e1157d6b198c0f6e02a3b95bdfeddee13098df2f0fdf227038450c"
+    },
+    {
+      "git_blob_oid": "3deba06a442b0b5473cbdfe091fdb8e24fa2b0f5",
+      "mode": "100755",
+      "path": "content/basics/_index.en.md",
+      "sha256": "debeb38c2493b23d7cdfa8df894ca5ee72030b531f4456bea9acbba75d571712"
+    },
+    {
+      "git_blob_oid": "25a6b1120bfac2b6f4b4856eb9f3f9fb3deaeb2b",
+      "mode": "100755",
+      "path": "content/basics/architecture.en.md",
+      "sha256": "06c501587348c5a228beaa0fa4f8daf40d88e190e6d4a7e45378df21eee01d56"
+    },
+    {
+      "git_blob_oid": "e624355b7f73cadb9f94a25991be647475c3c92b",
+      "mode": "100755",
+      "path": "content/basics/commands.en.md",
+      "sha256": "dde59b9f88894e958093369f9c19f16309c515f8458e4de7eb5db4255d6978d3"
+    },
+    {
+      "git_blob_oid": "3f96798ea814a155a5c7a7356ae5d40f39a6e72f",
+      "mode": "100755",
+      "path": "content/basics/customize/_index.en.md",
+      "sha256": "fa3392db980a7b89314dd1d18f134e62e96dce9a9f466255d11c2fe96d3643c6"
+    },
+    {
+      "git_blob_oid": "7ee839b2d59ab7b9434c83a3bfd6b2ea92312737",
+      "mode": "100755",
+      "path": "content/basics/customize/build-plugins.en.md",
+      "sha256": "0878df4b2324c12d15a01fa4c232d93f7e8ae3da44915f03d3ed5935ccddba11"
+    },
+    {
+      "git_blob_oid": "1c01136096355441ecfca61aa0f7e80abce6f82d",
+      "mode": "100755",
+      "path": "content/basics/customize/integration.en.md",
+      "sha256": "67aaba4ef6df708a3c22bea131602ad0875b8aba86bbbf36b24f691cab9313df"
+    },
+    {
+      "git_blob_oid": "b5e8a15fbb881814bb2591f00f261466d273021f",
+      "mode": "100755",
+      "path": "content/basics/customize/preferences.en.md",
+      "sha256": "a32b5fbde227b7051cac8c68ddfb87c3670b2cf8370d63df314bb5e7b82af311"
+    },
+    {
+      "git_blob_oid": "26be91874239d7fcb30156aff4b5569acba9e73e",
+      "mode": "100755",
+      "path": "content/basics/dicom.md",
+      "sha256": "ad07fe01c2feddb19380a8455f833153ef29ddbefd8110662d2375e7f3215613"
+    },
+    {
+      "git_blob_oid": "a439a51750e3a3db8e3c63d77f47f6a48522b326",
+      "mode": "100755",
+      "path": "content/basics/shortcuts.en.md",
+      "sha256": "82f6ab6bf87ad7a172198d82bc717a9e010679548e4a0e836c8a48142b17273e"
+    },
+    {
+      "git_blob_oid": "1ca74a11f16c7c8fc4607f16b519ea1112148c47",
+      "mode": "100755",
+      "path": "content/demo.en.md",
+      "sha256": "833ebe86a4cf27437e1751aa319eaf94d586c865eaadc1882f45775166ad6ea3"
+    },
+    {
+      "git_blob_oid": "3d85e06d92ed9707d776c3f244b8a7874296eded",
+      "mode": "100755",
+      "path": "content/description-1.en.md",
+      "sha256": "8600229a1ed9d4903abaaae6b879396d028a2e023e74befdd1c546c7efefe4a2"
+    },
+    {
+      "git_blob_oid": "9240d174ba0887be87f1781cf137694d2cf00840",
+      "mode": "100755",
+      "path": "content/description-1.fr.md",
+      "sha256": "6da86c5264dc6415a201688abe0f88535427d47a62c3578ecf9fb2a51ada9eee"
+    },
+    {
+      "git_blob_oid": "08a1b16a236654f52088f6257eca131cb92ba24d",
+      "mode": "100755",
+      "path": "content/description-2.en.md",
+      "sha256": "460822ebdae57c4d50e515f2b7222e8cddcdb6f26ffa76dc6c068ed198ec5f48"
+    },
+    {
+      "git_blob_oid": "2cf6426fad1a70917dca4f1f79867c308d3c083d",
+      "mode": "100755",
+      "path": "content/description-2.fr.md",
+      "sha256": "0bc5fe8a177034b4fe98a293beef69f3583d58a7eefecba4feae211c146a7203"
+    },
+    {
+      "git_blob_oid": "f732570c2541ed4a7cb5a7bd0f80335c59009e9c",
+      "mode": "100755",
+      "path": "content/faq.en.md",
+      "sha256": "732b1e2c3a1af1ba39704c12013988177de37684f7a713cc86d12583330f326c"
+    },
+    {
+      "git_blob_oid": "a0812dcee984bdeb8dcabd943b357229af7f0c27",
+      "mode": "100755",
+      "path": "content/free-dicom-viewer.en.md",
+      "sha256": "13bec3ce379ddd86eb21d6c66ad55119705e9b5d87fe913327ed315c9ceba374"
+    },
+    {
+      "git_blob_oid": "779fcb0c864b08a2bb4062985831c8c9565e1ee7",
+      "mode": "100755",
+      "path": "content/get-involved.en.md",
+      "sha256": "cdd39c4ccd3a48ca019af8627664643a6d3ffb518186c7a5f6dac6fb67ceb621"
+    },
+    {
+      "git_blob_oid": "82dab00e484f36b39e734c602ee14fcc0a07959c",
+      "mode": "100755",
+      "path": "content/getting-started/_index.en.md",
+      "sha256": "73b33af1e9c5f767690834bd4a71efe26c1a255d6a05d921475132203a1f1e03"
+    },
+    {
+      "git_blob_oid": "d148ecf96240db0133977032c5da1b5d4a495679",
+      "mode": "100755",
+      "path": "content/getting-started/building-weasis.en.md",
+      "sha256": "1b0b1749149fcdf1e844a6aaec12e908cafdfbd2cd6a100918b5a245fd580d21"
+    },
+    {
+      "git_blob_oid": "d515914d2783de61cce3c546f2e7649d60d49609",
+      "mode": "100755",
+      "path": "content/getting-started/dcm4chee.en.md",
+      "sha256": "295fe4ac620a8cfa844865f22a5c9e75c04993c7211c0329531ba7946acd65bf"
+    },
+    {
+      "git_blob_oid": "42462cbbda4feed332213fd6516cb71d8161a6b7",
+      "mode": "100755",
+      "path": "content/getting-started/download-dicom-viewer.en.md",
+      "sha256": "ec1b82a1c95536ab7e9a4830ebe4d6688b196ac06f0707cd39673da5641043a8"
+    },
+    {
+      "git_blob_oid": "24451d5e5f1d0fbde7f7f5e271a5ca2c018cecb6",
+      "mode": "100755",
+      "path": "content/getting-started/guidelines.en.md",
+      "sha256": "6b222650b1ce8d155f568b77e69953837f7fb24190bec1dcd6e9428ae59b03c8"
+    },
+    {
+      "git_blob_oid": "337f4e61460f6acdc605c6b84f29f5d7e0519fe0",
+      "mode": "100755",
+      "path": "content/getting-started/translating.en.md",
+      "sha256": "a4d0eec53c0923de49de54c9d54f4465688970b6c41bd914bd75662fee3bafa7"
+    },
+    {
+      "git_blob_oid": "96036640edc9bfed756224a2f5331f36157e7d5c",
+      "mode": "100755",
+      "path": "content/getting-started/weasis-protocol.en.md",
+      "sha256": "fe2ac24741e7a0ccd688f661b017bc6fba1b7c71cd5a86bd58de9a52edcb9141"
+    },
+    {
+      "git_blob_oid": "3cc02cbe3730cd93aac21364c7af2ca5535312b2",
+      "mode": "100755",
+      "path": "content/stories/_index.en.md",
+      "sha256": "529d59897535fc77159771b0e6c24c25e7f05b3bdf3d1f72b759eb5b64bcad24"
+    },
+    {
+      "git_blob_oid": "68ea2de44575d744308dfc87636f68f965459e04",
+      "mode": "100755",
+      "path": "content/stories/touch.en.md",
+      "sha256": "1eb493f79fea70f8db54525d3fee8314cbe2b30603aeb6d8b58d04c1180546d4"
+    },
+    {
+      "git_blob_oid": "0ed374436fd9799efc9a98d541c8ec2759a9d523",
+      "mode": "100755",
+      "path": "content/tutorials/_index.en.md",
+      "sha256": "ca1d347b5ae10f2881fb83e50cecfdb5225a72edbb7afbd6662f32f64765d935"
+    },
+    {
+      "git_blob_oid": "656c332974ddef6767b8cfab2d6192dc1ae227ee",
+      "mode": "100755",
+      "path": "content/tutorials/build-ko-pr.en.md",
+      "sha256": "89e106feed140947d69d2a25be8abe1571f0648f7438885f478125f4fb33d7ba"
+    },
+    {
+      "git_blob_oid": "67eb6b823eff48da96e906e5ae896ea398d090d4",
+      "mode": "100755",
+      "path": "content/tutorials/calibration.en.md",
+      "sha256": "a9f670f697d31a9868108d7e6ad733e816faa45d916b130ebdb7abf1d7ba98a9"
+    },
+    {
+      "git_blob_oid": "43dcb9d16d7fff57e37be85ff651db5e50f97fc0",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-2d-viewer.en.md",
+      "sha256": "ed201c02668b78f84de9b31aec0c4f4e4fe38756c44ac05432b7e60e76a707ef"
+    },
+    {
+      "git_blob_oid": "482131e42150664c8f5fa0026567637f0b0b099b",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-3d-viewer.en.md",
+      "sha256": "b055bf4eece70aedd0cc7390701d053f835e78bdd12589692e3f2324fbedd084"
+    },
+    {
+      "git_blob_oid": "58c1028253fd91184ee7426f6802a9072e83a5a9",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-artificial-intelligence.en.md",
+      "sha256": "bca8f67d8e596d17c28bca5b96368f3300434300f6fada7ce7b46db8bf016462"
+    },
+    {
+      "git_blob_oid": "f8123c867b31344d8fe373d4de6177c05746eed5",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-audio.en.md",
+      "sha256": "30c3b1f5be24e80735672c634dc7bfb77013eec8a6ee10c0db4a931a08dd1b65"
+    },
+    {
+      "git_blob_oid": "db632ac2ec22fabb3381d0cfb3c0cfaa3df89792",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-ecg.en.md",
+      "sha256": "8defe94d121aeeab49fea37dc5bcd35cb1a46f3b47912d0ca680948752948b2f"
+    },
+    {
+      "git_blob_oid": "c83cbc983d1df9cc4ed05653b750f61e1d5b418d",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-explorer.en.md",
+      "sha256": "ab2bfbcc07e477b5978629819c7bd89a1f1b534cca321819e2ba7d44b06e959b"
+    },
+    {
+      "git_blob_oid": "8ed44430dd8aeea804066cfba52e88ecc03df1ec",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-export.en.md",
+      "sha256": "8897437604564fbd9b5cc5d1df4f17963203d483e0f5695f5c9e49d699c3d2f5"
+    },
+    {
+      "git_blob_oid": "6986e984e43adb2d02a96a1563225543e2146a7d",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-import.en.md",
+      "sha256": "cee0457581780234f960f4ecddf3d0c2e5afb70bc9efe4c83bc79b6db8b5ad4c"
+    },
+    {
+      "git_blob_oid": "5b6139f1c1c01809806eee1b606726a7aa099366",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-rt.en.md",
+      "sha256": "05df2918b3689eab16f2ea1bbaf8fa0527da76de87aa080947856836a76e46cb"
+    },
+    {
+      "git_blob_oid": "96bd9ef859af42c5cf426df859a320a95c61f182",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-segmentation.en.md",
+      "sha256": "ba56c4c2a6b37183c62330613b144c449400b9708a868efd535f3c0efda72221"
+    },
+    {
+      "git_blob_oid": "6e0c7df8410c38604c1a01d824d59c28035bbbba",
+      "mode": "100755",
+      "path": "content/tutorials/dicom-sr.en.md",
+      "sha256": "8243564d6372663918d21623a03a2ad169b0105614f6329756dc19dd107d5cfb"
+    },
+    {
+      "git_blob_oid": "1ca5c9334ee23c405f3f16ea1d2267aaaef8c89d",
+      "mode": "100755",
+      "path": "content/tutorials/dicomizer.en.md",
+      "sha256": "425a6d512d13ff700622b2b9e25d93db9cae6de0bb2a56638d15cbf9f5747c31"
+    },
+    {
+      "git_blob_oid": "ffc74ab8486e5adc41a876fd0a85cee4bcacbe6b",
+      "mode": "100755",
+      "path": "content/tutorials/dicomweb-config.en.md",
+      "sha256": "48e73210b6966419d66de7992f19eba6c60285d045fd479f6f7f373e94611d45"
+    },
+    {
+      "git_blob_oid": "5faffc6204f78eab883b1f51b2b1ccf3c4b2d64d",
+      "mode": "100755",
+      "path": "content/tutorials/draw-measure.en.md",
+      "sha256": "8ab767b098b895156a455bc1430b1d28cfa70592d84268866f8d4af642bdebfa"
+    },
+    {
+      "git_blob_oid": "d7c1dd3f832f8c86a9efb9013e9cb155f7ee2193",
+      "mode": "100755",
+      "path": "content/tutorials/gui.en.md",
+      "sha256": "790eee85a4850cf3b83d109e7fecc3ba49218247ba4d3cc1170b4abfa1bfed36"
+    },
+    {
+      "git_blob_oid": "3abbf68adf2824464682406a3a058d6d8ee82433",
+      "mode": "100755",
+      "path": "content/tutorials/histogram.en.md",
+      "sha256": "53740c280712af4c2f210f6efb5d90b5b01141188ee8bfaefd65ec88de94f10e"
+    },
+    {
+      "git_blob_oid": "da882a2d57480d48f8952194469fe57fa95ce940",
+      "mode": "100755",
+      "path": "content/tutorials/image-orientation.en.md",
+      "sha256": "e0be5230182066be73d018abb12af9f16b013443a117298318e2cb5839346310"
+    },
+    {
+      "git_blob_oid": "101b4a9459bcde64574b22c5e485d910a3fbca5f",
+      "mode": "100755",
+      "path": "content/tutorials/locale.en.md",
+      "sha256": "a8431b8264ec8dcb4975af5216f6c8fe19a86bd1fdd29a07f57885dd2d27896c"
+    },
+    {
+      "git_blob_oid": "3e255d21067d1e18114ff7b8e505b392ad955fc1",
+      "mode": "100755",
+      "path": "content/tutorials/logging.en.md",
+      "sha256": "0b0cf5c5e2aa347c49e848bff5bed569f07d181380c98f7d3632ca3c8d0e571d"
+    },
+    {
+      "git_blob_oid": "d71d810a000ed011f2ce3c37c949b2f3d9a6878f",
+      "mode": "100755",
+      "path": "content/tutorials/lut.en.md",
+      "sha256": "d2d5a91a556d8546e2419e7a2b2a969d6e7b07744e188418420a317aaaa6f82d"
+    },
+    {
+      "git_blob_oid": "a61acc208b1b6281c220b269579f53d76ebe2f84",
+      "mode": "100755",
+      "path": "content/tutorials/mip.en.md",
+      "sha256": "b24810b367f14552b1ec59dfc7f47992b733685c8cc183c5a1f1ea28e1b1730b"
+    },
+    {
+      "git_blob_oid": "0ff93abc9ba4821d78ac5b3e6f22d8e095d8ae57",
+      "mode": "100755",
+      "path": "content/tutorials/mpr.en.md",
+      "sha256": "32dfc8cccef06aadbba5133bc50f687c70b1df53605f281a478873a343faa8a2"
+    },
+    {
+      "git_blob_oid": "2e0959b73aeaab070b45074365f770ac5c0a9de7",
+      "mode": "100755",
+      "path": "content/tutorials/print.en.md",
+      "sha256": "49eaa7a9f8252e3f953b13d5b3aed8c68d636d690cf4f778f666a19b637dcc00"
+    },
+    {
+      "git_blob_oid": "55fe4abb488899871e826d929b0e76881bc1735a",
+      "mode": "100755",
+      "path": "content/tutorials/proxy.en.md",
+      "sha256": "c5fa09575a4bcca21a168e079dce7864c778f12a75bff36d4286711890a64d2c"
+    },
+    {
+      "git_blob_oid": "5952eb9559eca093af0718a356e77c2af24f7634",
+      "mode": "100755",
+      "path": "content/tutorials/tags.en.md",
+      "sha256": "e969971d47905721054cbef1ce84a142c1512c4efc9ed8b7076d32a093fd9bc2"
+    },
+    {
+      "git_blob_oid": "800eea9f8fe17ab2020b97092341e15418a3e4da",
+      "mode": "100755",
+      "path": "content/tutorials/theme.en.md",
+      "sha256": "0c85c5b05a9151f7e8eb78723b597af8a33b0c1c56f6a90e407c51d96174c085"
+    },
+    {
+      "git_blob_oid": "e7c7b14ad2a6f2321b6e955e96999e9d7fb5151a",
+      "mode": "100755",
+      "path": "content/tutorials/zoom.en.md",
+      "sha256": "7376e7e68dea877b6d1eebad03847deb942cb5bbea1fbf8683fd1f3de6b08692"
+    },
+    {
+      "git_blob_oid": "388bd0b368fe13fee2faf95bca71b77f4ec8d3ae",
+      "mode": "100644",
+      "path": "docs/IP_SHIELD_GITHUB.md",
+      "sha256": "3ec29db7ad1cad94930399e26b32b7921e113253444c0e0c80bb0617e5504c1e"
+    },
+    {
+      "git_blob_oid": "1a7b82e0a02ed0f6f85ddecf1b8e27819455da80",
+      "mode": "100755",
+      "path": "layouts/_default/_markup/render-link.html",
+      "sha256": "4b2bfc9a9d3bd392c6ba127860945520b070c1e04699dbf89a21103cb8742514"
+    },
+    {
+      "git_blob_oid": "42d87d0dfc774ed4a4058076a5a860a33063c1c9",
+      "mode": "100755",
+      "path": "layouts/_default/sitemap.xml",
+      "sha256": "3d22fe66d1bd68dfa06d865d3d7b9c05288f2147f51344170dab66b32893e130"
+    },
+    {
+      "git_blob_oid": "0f6aa8343597b489b161071cd5d0b3c866000928",
+      "mode": "100755",
+      "path": "layouts/api/single.api.json",
+      "sha256": "dfbd4cdd153528433fbb0a17ce132393377219a8f17e62740a83ba30588e2d7c"
+    },
+    {
+      "git_blob_oid": "dc45efdf9f177383b1a79d1894f1e5692b1efd90",
+      "mode": "100755",
+      "path": "layouts/partials/custom-header.html",
+      "sha256": "8d03778f07525662decfc80b97ff8c0e0a71f103c1750b1c892f862f089a7762"
+    },
+    {
+      "git_blob_oid": "ff9aceaf77647f9337498550938371d164184cf0",
+      "mode": "100755",
+      "path": "layouts/partials/logo.html",
+      "sha256": "b87da2844cd28f00edf6e9886e672ed1aa629a0965f0a417e76319099b145dc7"
+    },
+    {
+      "git_blob_oid": "8647a9be49e3f6368cb1c347957602a9f45bea21",
+      "mode": "100755",
+      "path": "layouts/partials/menu-footer.html",
+      "sha256": "901c628c0a06c8c145e4794104e8b5dbcb7b5da50b4d0c11a3e23c29d7d04b45"
+    },
+    {
+      "git_blob_oid": "4c5548c94f347f230da24d07313baea9d70e266d",
+      "mode": "100755",
+      "path": "layouts/partials/meta.html",
+      "sha256": "f0060041c2f008f81f349417cb016a7a32403c8efe1a87787f2f06c5c01bfad0"
+    },
+    {
+      "git_blob_oid": "b1ec6995ae5c748d685366dd50e8e979171481af",
+      "mode": "100755",
+      "path": "layouts/shortcodes/badgeC.html",
+      "sha256": "b38f542b36f5b44165ca5601bf7e69135ae4d5236dfdce9c915835174136c8f6"
+    },
+    {
+      "git_blob_oid": "e81666648d670f26106e56cf5d3505b9349eab89",
+      "mode": "100755",
+      "path": "layouts/shortcodes/image-gallery.html",
+      "sha256": "098ea2f407b15e5375adba475497face1ba1e9139e81b157d545aa37e5ae6c8c"
+    },
+    {
+      "git_blob_oid": "f290d7bc0c17ee59bc709cb5eed00f21426f11b7",
+      "mode": "100755",
+      "path": "layouts/shortcodes/latest-download.html",
+      "sha256": "5d6d919843012e19501481c34873c8f20a261f7b0830c66a224eb2fb42721ba0"
+    },
+    {
+      "git_blob_oid": "5ecdf004488c887e16359d33c463be76fbdd8e75",
+      "mode": "100755",
+      "path": "layouts/shortcodes/launch.html",
+      "sha256": "1954d190220947a8353c45ab8c772a97d13cc383c7f7a8cb43195a862e797479"
+    },
+    {
+      "git_blob_oid": "87a44a3b66b44b0f9f61a2aee057b1abc492512a",
+      "mode": "100755",
+      "path": "layouts/shortcodes/mkd.html",
+      "sha256": "572fd14dd50812f5cea92fe27dd84cf288d720d5ccea6f7873e95d83d3aacf3f"
+    },
+    {
+      "git_blob_oid": "5df4b339ba6d050f4c32d02cd6b9ac2a88d444dc",
+      "mode": "100755",
+      "path": "layouts/shortcodes/old-download.html",
+      "sha256": "9366d3631f529201647cd80d31760d85391ebe01aec9fac435be0b056225681a"
+    },
+    {
+      "git_blob_oid": "4ec11a18f58c22249505cc63d69225c241811943",
+      "mode": "100755",
+      "path": "layouts/shortcodes/svg.html",
+      "sha256": "49995457c278a2fc84305f1c8629b9992f6b63e86e4aab1d0c9909ef62299a33"
+    },
+    {
+      "git_blob_oid": "f774791494084e07fe80a58c238e5604fa13bb34",
+      "mode": "100755",
+      "path": "static/attachments/weasis-code-style-template.xml",
+      "sha256": "cdea67102f999ce0c23ad2acba97b2f4b17a8a3dbacfa0dc68c4eaf9dbb904ff"
+    },
+    {
+      "git_blob_oid": "76a13445abdcc250a51e0f86d1c0d8df864f4f26",
+      "mode": "100755",
+      "path": "static/attachments/weasis-eclipse-cleanup.xml",
+      "sha256": "919827d6093eb00e3b6b5dc8cbb70e1c0bc6ff3ea639258daeda339ce0deb50f"
+    },
+    {
+      "git_blob_oid": "b04b597a5a0022d3967cc73de17bc8ad06c0920d",
+      "mode": "100755",
+      "path": "static/attachments/weasis-eclipse-formatting.xml",
+      "sha256": "7c439ed9d351a9c390817d340ebc8ca5a4ed224a92d07406f647ea95796a94ca"
+    },
+    {
+      "git_blob_oid": "eb7dc46f3418d708313706ef010d3641ac949c5b",
+      "mode": "100755",
+      "path": "static/attachments/weasis.ldif",
+      "sha256": "1977acf7d2b87493fed3bcdfc7a2e9b36600335ded658ab555e6e0d750ac5c06"
+    },
+    {
+      "git_blob_oid": "5a6c81c018b89a11c554422f44f2260dc5e8db52",
+      "mode": "100755",
+      "path": "static/css/jquery.dropdown.css",
+      "sha256": "3c7c9c147f5d8a7599efada63bd19572f5c1281d58ab4d44d9941a51c0e92f97"
+    },
+    {
+      "git_blob_oid": "e81a309db59b9a77f1d11e55229415952d7c728b",
+      "mode": "100755",
+      "path": "static/css/lightbox.css",
+      "sha256": "9a688339e8be639d1505c4689f65529ed0437563c0af90d013c715ea59430d82"
+    },
+    {
+      "git_blob_oid": "7db9ddb76457094f8b54387f27a4d7452edfeee8",
+      "mode": "100755",
+      "path": "static/css/theme-relearn-dark.css",
+      "sha256": "6ee4947a50e24056cff36ba99047bea5af828e244c690a601171e68c9d3325a7"
+    },
+    {
+      "git_blob_oid": "74ae1311a6240d18cd515324bd52df0a5b50f38d",
+      "mode": "100755",
+      "path": "static/css/theme-relearn-light.css",
+      "sha256": "c3481bb9d1bfe71309f9c959d41788bf7fd287f0a85129dbd4fe97b2e2aa4ab0"
+    },
+    {
+      "git_blob_oid": "e43b3b37a1b628df0b2a9b92d54f6cb261a996a0",
+      "mode": "100644",
+      "path": "static/css/variant-internal.css",
+      "sha256": "2523a9f987e31a0a60c2fa4b1b0989cda3b126ce14ea93695ca0fe5e02ab8bfe"
+    },
+    {
+      "git_blob_oid": "4ebd9777e32b94c5087be26de1d30906b7eb61fb",
+      "mode": "100755",
+      "path": "static/css/variant.css",
+      "sha256": "5747a649defd02ff769f52360c2fa425352eccbb0676a286a8eebc1dee5278dd"
+    },
+    {
+      "git_blob_oid": "812f9e180a0c925c095a9c8c96ded64332474aec",
+      "mode": "100755",
+      "path": "static/gallery-dcm4chee/1Weasis in dcm4chee-arc-light.png",
+      "sha256": "87cd95b881297fa06fcc184d718ef869cc46fb67f37ae3a5aa3f5c1ff31630c9"
+    },
+    {
+      "git_blob_oid": "0f6cd3235608818f1aa84a6ca9b488ad5e3b4622",
+      "mode": "100755",
+      "path": "static/gallery-dcm4chee/2Weasis in dcm4chee-web3.png",
+      "sha256": "45988629309505e538e66dc05856af4f5f3b9ef2784f7189e871cd49ed63f8ad"
+    },
+    {
+      "git_blob_oid": "babef9f236941a4ae52a0bc2aca327293cf6cd1d",
+      "mode": "100755",
+      "path": "static/gallery-dcm4chee/3Weasis in dcm4chee-web.png",
+      "sha256": "7ecd14844715029d3f431e6db26a391227d7ebcbddcf0c80011dff6a56695e8a"
+    },
+    {
+      "git_blob_oid": "0b0d9e655dd26012d752550b2315e7417cf65add",
+      "mode": "100755",
+      "path": "static/googlea7ee53bb14887b1b.html",
+      "sha256": "4107f53f43b826e0a71794069a205ce51d15b746d6e597394bbc68783478b988"
+    },
+    {
+      "git_blob_oid": "528a8f7f2b946f55eba4afce8d5aa5a1f028cfa8",
+      "mode": "100755",
+      "path": "static/images/DownloadManager.jpg",
+      "sha256": "35aee54271c9e260bf44b756b02ac4cb2f9c051979c872620ca483c5a706fa80"
+    },
+    {
+      "git_blob_oid": "3b4f6f64f3225896846be5351e4d2e8c1dcd01d2",
+      "mode": "100755",
+      "path": "static/images/architecture-bundles.svg",
+      "sha256": "e20ff7d84da2d2e972b7248b6aa78782ef2a2e1deabc9fef0a809970b932d23e"
+    },
+    {
+      "git_blob_oid": "ab5778030fb115ce8da72b8820f60e5ae033278f",
+      "mode": "100755",
+      "path": "static/images/architecture-packages.png",
+      "sha256": "a81d2fb129eabdeb3fdeb6e1f43017dd0db16275a65f80a7996c3b0f35d15c0c"
+    },
+    {
+      "git_blob_oid": "6e2b01e0f2d0a145de89e90378690f3571d5aff1",
+      "mode": "100755",
+      "path": "static/images/architecture-packages.svg",
+      "sha256": "ce6c03a6b66e0fd3f89688e084c3574feec1ec2b296aa2a8175c93bb5aef5260"
+    },
+    {
+      "git_blob_oid": "25bfa0cf2b75f92b9902fe5a01571c67018e8b2b",
+      "mode": "100755",
+      "path": "static/images/bullet_blue.gif",
+      "sha256": "e6eed4f7b08c660312c56a3db174b0da6b0aa2b84058c3a173c163d95c36f03a"
+    },
+    {
+      "git_blob_oid": "cd7841839215885fb23154755b71e2253f526780",
+      "mode": "100755",
+      "path": "static/images/charset.png",
+      "sha256": "626bb170decff8b686997f95ae5ad31e8d561dbc112ac01aefa8e58a11d6b6c1"
+    },
+    {
+      "git_blob_oid": "e1b17035905df02cbdca2fbb8417ca48dc4842e2",
+      "mode": "100755",
+      "path": "static/images/clippy.svg",
+      "sha256": "686d81e030899b477865d67a01fe34e83d8e68aa8da91a59205ad3e901a3ec71"
+    },
+    {
+      "git_blob_oid": "c463e980b032c86915abb9f8ac570294a28dd32e",
+      "mode": "100755",
+      "path": "static/images/conf/launcher.png",
+      "sha256": "6091d8b6bd085ebc49a1ed66a09e53de3199ffb531d1dad39b0df7e2158b4e61"
+    },
+    {
+      "git_blob_oid": "1edd04783516b53b6a9dc678fbb32bc9a5b812d1",
+      "mode": "100644",
+      "path": "static/images/conf/mvn-spotless.png",
+      "sha256": "b3d16f0bb0c76ec941c41abe68c6c3c09c0369401b6788367d7564bab2ed929e"
+    },
+    {
+      "git_blob_oid": "112911ade2e539f15c8a02c758c95b01bc5e21d3",
+      "mode": "100755",
+      "path": "static/images/connector-wk-emb.png",
+      "sha256": "d65b4843c03d406cd50b9ab83e1685029391ebc9f9cbae9ad208311bc9e654c2"
+    },
+    {
+      "git_blob_oid": "4e1addd5fa1a23cc03dd37b46c577d0e0d0b5c96",
+      "mode": "100755",
+      "path": "static/images/connector-wk-std.png",
+      "sha256": "a26b2fe48c5575d8c78f24957c305ac081c6636e9b244c30df49e39357649707"
+    },
+    {
+      "git_blob_oid": "f52dfe6e5c1b25ff4b8b9d6334e8fae4991de3c9",
+      "mode": "100755",
+      "path": "static/images/favicon.png",
+      "sha256": "5fa302bf421ec4545e89e9d7ba4bd6438b8eda3793546bb6f45193797b65bf42"
+    },
+    {
+      "git_blob_oid": "df1064868ef8fac1d0b3d66617e470266d70e7f1",
+      "mode": "100755",
+      "path": "static/images/gopher-404.jpg",
+      "sha256": "775ce339aec892f4dbf16cc83786d1b5cc69553622c042fc28b6137be17c2e1b"
+    },
+    {
+      "git_blob_oid": "f49cd3f2b16b638b39770c7d763bcc0aa89d4620",
+      "mode": "100755",
+      "path": "static/images/light.png",
+      "sha256": "53e687be87abc7b92908e1da90989a3fd91496814a6b863eaf7a26c15162d837"
+    },
+    {
+      "git_blob_oid": "3c0559a5a7b4b5ab30652f3ab17eec8ee94513a5",
+      "mode": "100755",
+      "path": "static/images/mpr-thumb.jpg",
+      "sha256": "b0d75eba1fd2e26e30208b1b6548382b437cc69722880fb6a624509836c8416b"
+    },
+    {
+      "git_blob_oid": "892aad95594b99f6822509b2eed6889f0c6f850d",
+      "mode": "100755",
+      "path": "static/images/mpr.jpg",
+      "sha256": "58c07be08666a28e91a4188afcbf9875b95cc7ec31e7722c4f1a3425e77bdcc5"
+    },
+    {
+      "git_blob_oid": "4a710c5a24fe389d4ce90c14b89a0de79cc14173",
+      "mode": "100755",
+      "path": "static/images/weasis-pacs-connector.svg",
+      "sha256": "c4d9b8fa1da34d30578368a8f74258c1d1fc91ff3c77b5e7349f64e1e4608f48"
+    },
+    {
+      "git_blob_oid": "1364c118d223ed7e453694f92331a770adc508d9",
+      "mode": "100755",
+      "path": "static/js/lightbox.js",
+      "sha256": "99803233390b2bde223f3cc2fadab03ce26d02fdfe2a160b22bc2dde3b1085b2"
+    },
+    {
+      "git_blob_oid": "2e1e8c0ef4a57f7084b23ac50fff3bbe1cb6c88a",
+      "mode": "100755",
+      "path": "static/tuto/3d-cursor.jpg",
+      "sha256": "39d45d0f4f4b5cdcfac26a04fe9e15964d97dad4ef1dccf45621ba0627a734f4"
+    },
+    {
+      "git_blob_oid": "fa9d7a19fb7f24150849e53681c1e6c494d5a31a",
+      "mode": "100755",
+      "path": "static/tuto/apply-calibration.png",
+      "sha256": "d77ff12174d11962df2bbae1ca6496645a3415e8fe6441e91bb200aecebcf030"
+    },
+    {
+      "git_blob_oid": "feba65dd32227a2e330da7f4f9b58934ee339c70",
+      "mode": "100755",
+      "path": "static/tuto/color-histogram.png",
+      "sha256": "8dbc8305b1bc9dc9e395653a084908ab1092a88e6ef48c354a1267fdd5640ea7"
+    },
+    {
+      "git_blob_oid": "0002060b842341cb9166251f753f94578b489623",
+      "mode": "100755",
+      "path": "static/tuto/dicom-attributes-pdf.png",
+      "sha256": "83be079fec63146839ef38a1d165b6133eca2bed0063dbfea9caf9490e7223ac"
+    },
+    {
+      "git_blob_oid": "ae95f1e33a8152d2f6c77aac7c229580d75a1ce9",
+      "mode": "100755",
+      "path": "static/tuto/dicom-attributes-search.jpg",
+      "sha256": "30c3be63ea40c7abb496d57e539e2c724fedf7d265a9204b27c9f0b7c620573a"
+    },
+    {
+      "git_blob_oid": "3d7488160c216aac969f4ab65875cc6361cec473",
+      "mode": "100755",
+      "path": "static/tuto/dicom-attributes.jpg",
+      "sha256": "0b603756125e0301f129216b89a6d1ac4422a53be00296e83b14df6866b75454"
+    },
+    {
+      "git_blob_oid": "dc29bb29ddf3a5075402bfa7349b5481cf540507",
+      "mode": "100644",
+      "path": "static/tuto/dicom-audio.png",
+      "sha256": "e4fb5a6e15c8e22a496caecfbb2f201accd1a5f8180ce6bfb88eca997b162dfd"
+    },
+    {
+      "git_blob_oid": "184b909e9945f5c0a995451a03510f5de83232c9",
+      "mode": "100755",
+      "path": "static/tuto/dicom-explorer-level.jpg",
+      "sha256": "7e7d6170b5537decaae566e2db9141a53d07cb731fdc4c3480b42c2a44565d36"
+    },
+    {
+      "git_blob_oid": "fed7cb883b75a05781c29ddafdc3d679d30ca56d",
+      "mode": "100755",
+      "path": "static/tuto/dicom-explorer-series.jpg",
+      "sha256": "49783d2fc5a06f1a93a9dbaa10b0e6d9e23c9460c3b67aa27fdc2461139115d1"
+    },
+    {
+      "git_blob_oid": "6a24050aa21595ab6f7cfb51f7bfcf7062c81081",
+      "mode": "100755",
+      "path": "static/tuto/dicom-export-cd.png",
+      "sha256": "5eef2bb806461dd46bbf66ea9518b3fb2219480e1c5be4dde27450c9ed6b89f6"
+    },
+    {
+      "git_blob_oid": "59c9127902b9e5b9110f04acb5f3dd685c1e1c3b",
+      "mode": "100755",
+      "path": "static/tuto/dicom-export-options.png",
+      "sha256": "962fa887b55fb056a527e02079d97025a5cbc5fb51cd1d44c8e1123599952840"
+    },
+    {
+      "git_blob_oid": "11ec773a6c2e47e3187477aa6a6d1acdb382f5f7",
+      "mode": "100755",
+      "path": "static/tuto/dicom-export-view.png",
+      "sha256": "c13b7a23bec9de913c4b763832c118290359147096d2910b19e2f8742e969077"
+    },
+    {
+      "git_blob_oid": "e755c3bab5b25ffdce738c21a52134f14a510a29",
+      "mode": "100755",
+      "path": "static/tuto/dicom-import-archive.png",
+      "sha256": "39fc168c21dbb59930d847643a6d8a5e3a8090c4755732d2833aa66dbbc5cacc"
+    },
+    {
+      "git_blob_oid": "88e030685e0b3e2b783ec65683914ff8521bb458",
+      "mode": "100755",
+      "path": "static/tuto/dicom-import-search.png",
+      "sha256": "14169ed41826ea0c6e7364d43ab496271a25c303f1cfe389364f2c331664f703"
+    },
+    {
+      "git_blob_oid": "be40ecc09445a27a4b1503068c136dba79fa838e",
+      "mode": "100755",
+      "path": "static/tuto/dicom-open-icon.png",
+      "sha256": "697b5317870aaa57e9d1ceee36036be59107b073970d253fab6a5abbd22928fb"
+    },
+    {
+      "git_blob_oid": "a5434f7bec36a8e83ea99bbd26dbba9153952fc7",
+      "mode": "100755",
+      "path": "static/tuto/dicom-rt-dose.jpg",
+      "sha256": "9aaface8d0cef921cf7cf03f5d920c3c665b275825fc90ff9d2439658ac3da44"
+    },
+    {
+      "git_blob_oid": "7f3f2d2129165152600a867d09d32c0157d7f62f",
+      "mode": "100755",
+      "path": "static/tuto/dicom-rt-dvh.jpg",
+      "sha256": "97fbb04091e0e83f7c43479cb0161b97b16594c3218f3345da9749fd1a8472ec"
+    },
+    {
+      "git_blob_oid": "87f75f9db8b008c9fb3bae933f4cbfddd1d3d52b",
+      "mode": "100755",
+      "path": "static/tuto/dicom-rt-struct.jpg",
+      "sha256": "1199b98b574476e3654f56fadf083451469a6fb56ca73ba11b2b6424e6183fcd"
+    },
+    {
+      "git_blob_oid": "88a2d02691e6dd86a78c61999f18be3df75b31a9",
+      "mode": "100644",
+      "path": "static/tuto/dicom-seg.jpg",
+      "sha256": "8d58a3a65f4d41f2bb2d26fa1cc2aa78e15dae349957517d70b9094a7da9faac"
+    },
+    {
+      "git_blob_oid": "6f1f7232859b400ae16c91d73135839d243d6907",
+      "mode": "100644",
+      "path": "static/tuto/dicom-sr.png",
+      "sha256": "6364b893cb406343fa1e28c55153da5ff542cbb92e1b9994d8366484d666697b"
+    },
+    {
+      "git_blob_oid": "01a4cdad498888fc891e37e852d3577d4d045046",
+      "mode": "100644",
+      "path": "static/tuto/dicom-viewer2d.jpg",
+      "sha256": "a6c13250b6e21c02b770fd0f31c8f07e7f7ed0dae1f296fbec758e4342a3c19d"
+    },
+    {
+      "git_blob_oid": "1b48426d9df21a34c261a698db17191c4f3ed617",
+      "mode": "100755",
+      "path": "static/tuto/dicomweb-google-auth.png",
+      "sha256": "0e5db0dd0f26c0d91c70d6404a4dacdfde7f5251b6308a913ce261f2fedc47da"
+    },
+    {
+      "git_blob_oid": "7029ec8cdb463772ab68b4ccd5140654da17049c",
+      "mode": "100755",
+      "path": "static/tuto/dicomweb-google-node.png",
+      "sha256": "3bbc22f8d0c8c38d121abf498f21d44c381bc78650bb192e637a3571e9d23691"
+    },
+    {
+      "git_blob_oid": "e1d4cc3339f6e6d7cb7e764e3c1087e0d8808ee4",
+      "mode": "100755",
+      "path": "static/tuto/dicomweb-nodes.png",
+      "sha256": "99bdcdce7f2b500df792146c312ace7c1e434ed5743cd9f26f3d347497e242ca"
+    },
+    {
+      "git_blob_oid": "e7520bb48fcce9545397d54fbfb1e7cea377dd8c",
+      "mode": "100755",
+      "path": "static/tuto/dicomweb-orthanc.png",
+      "sha256": "18f1eb53fc1143d7f41790ea4ea6b686961863e7ec011e059fb356422a9fbc3e"
+    },
+    {
+      "git_blob_oid": "d62c769148531db8eafbf34eb8cfa06c09db947d",
+      "mode": "100755",
+      "path": "static/tuto/ecg.png",
+      "sha256": "b16fea742ded49ae634a4bebc96c2aee6498adf710c40f9dabbf2f9b087555de"
+    },
+    {
+      "git_blob_oid": "22f7c46cb26371a27d026c6fff9a257b27225f52",
+      "mode": "100755",
+      "path": "static/tuto/export-ko-pr.png",
+      "sha256": "d8cb4fb99706f2ab90a274c7d103b37101c6590e88d776c3005157b3d152fa64"
+    },
+    {
+      "git_blob_oid": "ea396efd2865de7ffb569217db208ed5d64d692f",
+      "mode": "100644",
+      "path": "static/tuto/gui-overview.svg",
+      "sha256": "926cbb098b419026573285427a9794622f02df56b43c77a2fa952b0905c3e0f6"
+    },
+    {
+      "git_blob_oid": "60d329e08a56c78785e49f031c2c12c28d05589e",
+      "mode": "100755",
+      "path": "static/tuto/histogram.jpg",
+      "sha256": "8a6ad4ec812fa141eb39be1a380ab5139c188eb98aebbeba96acea6b8142f6d2"
+    },
+    {
+      "git_blob_oid": "2d0a61cbaac146d49c7a16ebc331b62d2aaaa448",
+      "mode": "100755",
+      "path": "static/tuto/icon/Dicomizer.svg",
+      "sha256": "67868ee88b97cd95a223d4a864697fceb78c4b85d1306fb8c1ea1d69ae11ed48"
+    },
+    {
+      "git_blob_oid": "98d8cbc8287deef4e80aee1c871081e3994e01a7",
+      "mode": "100755",
+      "path": "static/tuto/icon/Weasis.svg",
+      "sha256": "5e9be4b49db5896385ee4ad49c3aff35152f011d0bfd313b77aae745a89c6f9f"
+    },
+    {
+      "git_blob_oid": "81f52c838ae392a948f28a949e6ec76e158d78b9",
+      "mode": "100755",
+      "path": "static/tuto/icon/WeasisAbout.svg",
+      "sha256": "775fb8bf27f140662a5a8471ef40e9895d014124ed488036478b514363e7e778"
+    },
+    {
+      "git_blob_oid": "ec95a2fb4690f1e9627b867028ef0c389a04d944",
+      "mode": "100755",
+      "path": "static/tuto/icon/audio.svg",
+      "sha256": "4b9788068880f29b934219377629401bb505c50757898259147e35cabc74060d"
+    },
+    {
+      "git_blob_oid": "6391c72a246da7fb4edab251ab116cd86a6b6e4d",
+      "mode": "100755",
+      "path": "static/tuto/icon/contextMenu.svg",
+      "sha256": "282c1da07feca70e76189ca4368a03c9271359b42dc53919fb53f8538e5a8b7c"
+    },
+    {
+      "git_blob_oid": "61a9391db3cea1975aa624b9a6bb42ddb8833628",
+      "mode": "100755",
+      "path": "static/tuto/icon/crosshair.svg",
+      "sha256": "b04a231561fd9de464aae0ce6fa55d452037b99872a1ec4b03970f45a40ca827"
+    },
+    {
+      "git_blob_oid": "406789548d1ed273f620af6dc188b069702c6b7b",
+      "mode": "100755",
+      "path": "static/tuto/icon/draw.svg",
+      "sha256": "8ad775c426ffe9bc77d364ee0df941a455547a14702a3c27780c72f0276dd690"
+    },
+    {
+      "git_blob_oid": "e9ef737ab54e2d15aa16d72eeb70f6a748d63611",
+      "mode": "100755",
+      "path": "static/tuto/icon/ecg.svg",
+      "sha256": "1325134734a138cf9941ef1fa85997568740bc7dbafd5869a33e5a43b417d89c"
+    },
+    {
+      "git_blob_oid": "5736d137d7c532b9dfe4fdb6cc3f87d1e0818f30",
+      "mode": "100755",
+      "path": "static/tuto/icon/execute.svg",
+      "sha256": "3c1d1184a10799a19de0f1d41788579fa12982d65d8a4414f63ebd94e844b2c7"
+    },
+    {
+      "git_blob_oid": "604aa81445a3caf21375919e7de120d0aab3cdbf",
+      "mode": "100755",
+      "path": "static/tuto/icon/exportDicom.svg",
+      "sha256": "cc8903d06aab79640c435189928937f3003548b98f4a235cfaeb2853c7b74349"
+    },
+    {
+      "git_blob_oid": "617a3f7842c5c76ebdc7bcc27b9831c864a5d0c3",
+      "mode": "100755",
+      "path": "static/tuto/icon/exportImage.svg",
+      "sha256": "92a29a4777bc3720ac19bcb678b5de0c2907eeca866179a00ed4d6ec382b79e8"
+    },
+    {
+      "git_blob_oid": "0f8d4948d019568d14d7dc4711a0d8f56dbfcb1b",
+      "mode": "100755",
+      "path": "static/tuto/icon/histogram.svg",
+      "sha256": "058fda679f13cff01e04494136635b569439ef6ab0490e2c972d467c8560a709"
+    },
+    {
+      "git_blob_oid": "1cfc5f27bea16fb665774a462fb8ff09b0d0af83",
+      "mode": "100755",
+      "path": "static/tuto/icon/holdon.svg",
+      "sha256": "8b9fcb823d5d5d8cea70a59b42da2eb9ed924bd9200d5ab5a38bed025e90757a"
+    },
+    {
+      "git_blob_oid": "3c9047d4e45bc6fe60e9a6a246d6271ce8d4ebeb",
+      "mode": "100755",
+      "path": "static/tuto/icon/imageEdit.svg",
+      "sha256": "12a8b318780accf78953febefe863e46782530f4d78e40e6cb66d40d6cf4e561"
+    },
+    {
+      "git_blob_oid": "8c1682309eabf26076877a2133e9f247b5e385e9",
+      "mode": "100755",
+      "path": "static/tuto/icon/imagePresentation.svg",
+      "sha256": "8ee54056c980d0b00b3fbfe2436673a31d906cc42948e1a3e3fb20cfa1c4d1fe"
+    },
+    {
+      "git_blob_oid": "2809b74651892dd1c3c2c87c50c09dc67d812cec",
+      "mode": "100755",
+      "path": "static/tuto/icon/inverseLut.svg",
+      "sha256": "8371076d642a9f25c173b4b5903e2fb91b39d229aed5d3696892f4f443e3f93c"
+    },
+    {
+      "git_blob_oid": "0e399f491ca943d513668500d714fb5978a80027",
+      "mode": "100755",
+      "path": "static/tuto/icon/keyImage.svg",
+      "sha256": "412577245fa8346ef23aac9e57968073e4ef9f9ae3d47afd9a339b15eecff8a8"
+    },
+    {
+      "git_blob_oid": "52f60e40f49ac1e4a9c30f048cd00bd123aefa79",
+      "mode": "100755",
+      "path": "static/tuto/icon/layout.svg",
+      "sha256": "42376d0b0b9ad25f0cb86f5e57fd415f87900bb84b2f1b03401d1e3ed75db63b"
+    },
+    {
+      "git_blob_oid": "ae1e369892b3b32de78d7bec7b716445e3636ab3",
+      "mode": "100755",
+      "path": "static/tuto/icon/loadVolume.svg",
+      "sha256": "3788b5da2a445d390db93d33955bceb65955db3ca6eed63f534d190489b25058"
+    },
+    {
+      "git_blob_oid": "aa7f99d2515e89eba06e958d46246d61d2625486",
+      "mode": "100644",
+      "path": "static/tuto/icon/loop.svg",
+      "sha256": "6972a4e3caf5a9de6af9990f8798bc76b193fc64718c132350f45b9aca42bda9"
+    },
+    {
+      "git_blob_oid": "e31b5e013689e3b3f4686a68026bf539e3a8b015",
+      "mode": "100755",
+      "path": "static/tuto/icon/lut.svg",
+      "sha256": "885f821897c3364336e429078b016ca2e6219a000c49e5e1b016f5203b3fbf5d"
+    },
+    {
+      "git_blob_oid": "3a4245b1ecec978ef7d9e1437bb4599341264652",
+      "mode": "100755",
+      "path": "static/tuto/icon/measure.svg",
+      "sha256": "14d8534cae48aa091b3f62853a514f098ff5e630ab3b1e2d3f43ff4c02008345"
+    },
+    {
+      "git_blob_oid": "e614917f2ad0cbd64a86806a6e57dd599984a77a",
+      "mode": "100755",
+      "path": "static/tuto/icon/metadata.svg",
+      "sha256": "14c2df968532856a64d53d55740c412873f61f0eb61da49c31c973700fb2062c"
+    },
+    {
+      "git_blob_oid": "33cac6f48b404167245697526475e17fa900c0fe",
+      "mode": "100755",
+      "path": "static/tuto/icon/mip.svg",
+      "sha256": "ecf613ef5f323f23101c740fc3ac07bec36e6fa7266f63328c238b226869e7ce"
+    },
+    {
+      "git_blob_oid": "f98d8d484d859014bd8e301c4e77e488d2d616f6",
+      "mode": "100755",
+      "path": "static/tuto/icon/mouseLeft.svg",
+      "sha256": "8752fff16482dfa93fed8d88ff1ed67cb9dc1eba19fcdea19ce2ed38603299ee"
+    },
+    {
+      "git_blob_oid": "673e2e50e5b19204c20450f3cdcd1044abcf0b50",
+      "mode": "100755",
+      "path": "static/tuto/icon/mouseMiddle.svg",
+      "sha256": "568681df0733c426b0bc3e137aca4b8c181e990efdc68cc6af2cf59470634044"
+    },
+    {
+      "git_blob_oid": "7ca04e54cf2bfb97a2dc222ff1299cd48d3daf05",
+      "mode": "100755",
+      "path": "static/tuto/icon/mouseRight.svg",
+      "sha256": "7b869ade78989730a60d8e063a049245b5686d39fe82328fe5f1b9bebb209f2b"
+    },
+    {
+      "git_blob_oid": "3d919cca2466f17bea570f6f5d68661835f5078f",
+      "mode": "100755",
+      "path": "static/tuto/icon/mouseWheel.svg",
+      "sha256": "4df1f68f10c7ae8eb94df12f384a6058fdb8826973b7af49279f8c95ec574fb8"
+    },
+    {
+      "git_blob_oid": "2afa88a15a432e90d1f5075f97bd13c2b3971fbc",
+      "mode": "100755",
+      "path": "static/tuto/icon/mpr.svg",
+      "sha256": "ec5c5473709123b74de53f11196b91a48a4b05a28a4619ab120d8b180522f38c"
+    },
+    {
+      "git_blob_oid": "427e41de87c42251139a8f2db45578e6a10078b5",
+      "mode": "100755",
+      "path": "static/tuto/icon/none.svg",
+      "sha256": "4da296c7e4839ed1672399705ae45312f41cbfa594c1d6019bd69021fa203088"
+    },
+    {
+      "git_blob_oid": "1cb315a05be5859af41a84f72a6e96f76c2c09c0",
+      "mode": "100755",
+      "path": "static/tuto/icon/normalize.svg",
+      "sha256": "0d7259c2d458c3df321f608b7375eeb00fe88b6f60bd0d94fe7f4498aaa7a4b5"
+    },
+    {
+      "git_blob_oid": "328ab28b32c9fbecdae6279cfcfe76e15b612285",
+      "mode": "100755",
+      "path": "static/tuto/icon/orthographic.svg",
+      "sha256": "64ab7fdee2f8a5a2b670c92fd3759f53141ecd837f610f821ce76c95ecbd09b4"
+    },
+    {
+      "git_blob_oid": "79a08feb08a8d174f369196a11970f81aaad7519",
+      "mode": "100755",
+      "path": "static/tuto/icon/pan.svg",
+      "sha256": "7ccedbd7c355ac69fa8f6bd06c79fc4ca29df80a7d3214d1767deab4386a2269"
+    },
+    {
+      "git_blob_oid": "813be722015695aafdd4fadba948a85976bf95b4",
+      "mode": "100755",
+      "path": "static/tuto/icon/print.svg",
+      "sha256": "43f574a06d412361e283f282ded8d6ea1f45d9df54ca5718164f82ec9aba4fd6"
+    },
+    {
+      "git_blob_oid": "805986f92171a56c904bfc9e5a9a7e48929b5d52",
+      "mode": "100755",
+      "path": "static/tuto/icon/reset.svg",
+      "sha256": "cd609c1f8789aedb172b12c92df5dfe79b0d2763f44fb8c402ea1c42df4dd64e"
+    },
+    {
+      "git_blob_oid": "302d1cb80d02666d5f2f13bebbccb8703119747a",
+      "mode": "100755",
+      "path": "static/tuto/icon/rotation.svg",
+      "sha256": "4c189043f638d59bcb4564fa7cf9137c4512391f46c694aa6ec13874233a24d8"
+    },
+    {
+      "git_blob_oid": "cd161a46cc148b7eea5ac10fd19a42834c78f269",
+      "mode": "100755",
+      "path": "static/tuto/icon/rt.svg",
+      "sha256": "9804339b10d581889573ac5de91ec7ecb6ef0c0e60e453cea9849479a4d3fa08"
+    },
+    {
+      "git_blob_oid": "1df7dbdc990bf9f64405486c488db208ea1cc229",
+      "mode": "100644",
+      "path": "static/tuto/icon/segmentation.svg",
+      "sha256": "c857241927d869b2865b1821a84342020305be20c2909923e18793877b5defa6"
+    },
+    {
+      "git_blob_oid": "64362bdc09ce7b94ccf9a11871fd73ae4552d6c1",
+      "mode": "100755",
+      "path": "static/tuto/icon/selectionDelete.svg",
+      "sha256": "7ff89615d9bc7f5811b532e9097f6daf5cdf48a84543d79d56f580a6af274c51"
+    },
+    {
+      "git_blob_oid": "1c5fcb225677b1383d6e59ace397947860a43d2a",
+      "mode": "100755",
+      "path": "static/tuto/icon/sequence.svg",
+      "sha256": "7a2700462a7ed40c2273c0b7925a4ee4096fbd0d7692d5997e01f9bf532958bf"
+    },
+    {
+      "git_blob_oid": "55f3e51641623a2e4bf7b54158fc079829cf3f1c",
+      "mode": "100755",
+      "path": "static/tuto/icon/suspend.svg",
+      "sha256": "694e178a59f9a69e18945da88a1b880bf3fd849f5d4967e806a0ec12ef470cd7"
+    },
+    {
+      "git_blob_oid": "4eb34f083fb356766e73df853b4ecffcccc17004",
+      "mode": "100755",
+      "path": "static/tuto/icon/text.svg",
+      "sha256": "fa1fd4a0c85c5f90dafa695259ac3f81e0926074d246917993ff33e5c9117b1f"
+    },
+    {
+      "git_blob_oid": "189b6dabe1c5c83168b002ccb3bc3b2450c4654c",
+      "mode": "100755",
+      "path": "static/tuto/icon/view2d.svg",
+      "sha256": "f7d538fa87378297973c18903faeef9612201aa3a65cc907e9cf4cbcf126eca3"
+    },
+    {
+      "git_blob_oid": "9d19977fedec5ea8294a45143054ffbb7b05218f",
+      "mode": "100755",
+      "path": "static/tuto/icon/viewSettings.svg",
+      "sha256": "8ad74e98c1f99d54ae8be3fbb053bb6d177246dfac31fd8a4c9154a5dd63b949"
+    },
+    {
+      "git_blob_oid": "3510ff610fea2c8787c7a217f6d677a4464cc5ab",
+      "mode": "100755",
+      "path": "static/tuto/icon/volume.svg",
+      "sha256": "72cfb3d13b46cb81188425965c058cb746d78fa8a0c3d781a4604b3ae51b40d0"
+    },
+    {
+      "git_blob_oid": "16dfa2baed812edc8b244c343f2b88eaa96f1c53",
+      "mode": "100755",
+      "path": "static/tuto/icon/volumeSettings.svg",
+      "sha256": "922fb5a4e7510657e9298746af7ec40429972fa277b59a59744022590f01d390"
+    },
+    {
+      "git_blob_oid": "be4e9a385ae9d65d79caa1a34d513087643295a5",
+      "mode": "100755",
+      "path": "static/tuto/icon/volumeSlicing.svg",
+      "sha256": "22a3d302661f8f3d6f084c3699febb21c85523259271faba5f51ec64809dfa93"
+    },
+    {
+      "git_blob_oid": "506a949e3f5f03cc88753d2c480f2106d6c47cb1",
+      "mode": "100755",
+      "path": "static/tuto/icon/winLevel.svg",
+      "sha256": "8e9e62ea71b58d1fcf9c237f0a5dd99820d51163bb6b23ae3e0e7a528653e202"
+    },
+    {
+      "git_blob_oid": "4515a945f453bb1db601d5d72c643a1a5d43e63d",
+      "mode": "100755",
+      "path": "static/tuto/icon/zoom.svg",
+      "sha256": "55ddea75addc72c0e8d4e22d2816430e9790787b66ea8b37211213cd9ec16bf0"
+    },
+    {
+      "git_blob_oid": "ac235fe07eac0b6a460b56a149ddddae5a23dc7e",
+      "mode": "100755",
+      "path": "static/tuto/icon/zoomBestFit.svg",
+      "sha256": "27ab6ab4388b0f02542826233131369f29fee87e815d660caca5ad25f0897a30"
+    },
+    {
+      "git_blob_oid": "e6e8302c334c4c2271ed938806e88503afc210a0",
+      "mode": "100755",
+      "path": "static/tuto/icon/zoomOriginal.svg",
+      "sha256": "00cc1ebdf94db6a896fe7d15449f81f7b4552fca793907787cd47277c62053be"
+    },
+    {
+      "git_blob_oid": "8b19ab34780aa86fcc4f227fc143c7a83f81eb0d",
+      "mode": "100755",
+      "path": "static/tuto/icon/zoomPan.svg",
+      "sha256": "0265f7cb8de1ba1cda4797c0fc471a63c2eb2bc8c259eebaf3332784da8ed73b"
+    },
+    {
+      "git_blob_oid": "f558f8311637b9c6c4423ba04c0d39e83762e313",
+      "mode": "100755",
+      "path": "static/tuto/icon/zoomRealWorld.svg",
+      "sha256": "eff0534530901393ed0a4d77da3e4252ab885ef3baed65633215afe400e66953"
+    },
+    {
+      "git_blob_oid": "b37cf2b1f596bd9ddcf12f6d52a78217e18ef314",
+      "mode": "100755",
+      "path": "static/tuto/ko-actions.jpg",
+      "sha256": "a800cc36f6e77216be75a5058cd940ac45cb190f8fce1201862e1e360028aa1c"
+    },
+    {
+      "git_blob_oid": "3d1fd783150aab49635e215f9e4b6f7e03ec93c5",
+      "mode": "100755",
+      "path": "static/tuto/language-prefs.png",
+      "sha256": "1fb130158f18bd9d8a6c5810dcd28ba2b7cb21d35e9657094bebd2c02515a047"
+    },
+    {
+      "git_blob_oid": "2df46cfc8676221c1629e959b330c0ee3688ac92",
+      "mode": "100755",
+      "path": "static/tuto/lens-drawing.jpg",
+      "sha256": "418ee8d83ea9d643cbf36c7877960a36cc68f1e859cc5e6c167ee4fb4943594c"
+    },
+    {
+      "git_blob_oid": "f04bc9841b2d8dd5ac767849a7a8d92fcf8955da",
+      "mode": "100755",
+      "path": "static/tuto/lens-freeze.jpg",
+      "sha256": "037d479bb9e240d84e430af2c79cf9b2d6cdfc7240eb6a1aba246b03265ad895"
+    },
+    {
+      "git_blob_oid": "5f3c4e0093f0e3ab7c1a2edb105a05b50c4afe8d",
+      "mode": "100755",
+      "path": "static/tuto/logging.png",
+      "sha256": "58d716920265b1793e7f42306bb523a651c29d2cc6b8b518a29d545ea4a64372"
+    },
+    {
+      "git_blob_oid": "1eb7dc536d678fbf228348dc52af35ca60606f9a",
+      "mode": "100644",
+      "path": "static/tuto/main-toolbar.png",
+      "sha256": "9b44bf83bf2c627b7cb387349c759b64829c957868857cd6e0fff9dec8fe802a"
+    },
+    {
+      "git_blob_oid": "2c0800908858a520a64a0b23b0cbf9db51b187be",
+      "mode": "100644",
+      "path": "static/tuto/measure.jpg",
+      "sha256": "50d828f71791f35cb74c5fa14c62bc13f884eb30503aa847ce0a653bcb635470"
+    },
+    {
+      "git_blob_oid": "98f5347886b5385e9dc850d3b1eb61c84fabdbc2",
+      "mode": "100644",
+      "path": "static/tuto/mip.jpg",
+      "sha256": "77330f615c0b464ca8c37002935b97366431fbd45ea8484030fe3fff629639df"
+    },
+    {
+      "git_blob_oid": "831742d392ad5ae57c5887942dc2a9b5fd683e13",
+      "mode": "100755",
+      "path": "static/tuto/mpr-orientation.jpg",
+      "sha256": "3e8887cc84f0c21b83c59e8424970094ff5f20a4e9d9c2d699205c56358bde38"
+    },
+    {
+      "git_blob_oid": "b4cd2a01b3232b3ca655496ce61d0836cf2b2344",
+      "mode": "100755",
+      "path": "static/tuto/mpr.jpg",
+      "sha256": "054bcb7f163210d0241c2dab50f444a6cfd102548b35ef2a6e78be7304d61b2d"
+    },
+    {
+      "git_blob_oid": "e52dd15b2939413332f42ebe94dbb2e9982faa60",
+      "mode": "100755",
+      "path": "static/tuto/pr-actions.jpg",
+      "sha256": "2602d1f56939367b28508b64cb9a2ce7d6a4b599b2c3d47e82c7da3f880bf0c4"
+    },
+    {
+      "git_blob_oid": "9c01dae6d48993b689ffe5df65370316a4ef2e54",
+      "mode": "100755",
+      "path": "static/tuto/print/dicom.png",
+      "sha256": "5866d55c68acaaf4e5741f8ac8fd5dbd5215bee2f81d5f1cc964132e7cfbe8d8"
+    },
+    {
+      "git_blob_oid": "afe4f86b99edd071fee4909121ffa5099622ea35",
+      "mode": "100755",
+      "path": "static/tuto/print/layout.jpg",
+      "sha256": "74638070b2875ccf8bb0bc829ced5ee4bc80321aa3bab1decbe576bdb319ea94"
+    },
+    {
+      "git_blob_oid": "2b553c249f88041b3c48d450c4a4454d1091f6e9",
+      "mode": "100755",
+      "path": "static/tuto/print/standard.png",
+      "sha256": "130a502833dbe59ee2e5015c2e3e493d5b640451c9ca2ae229865006c006e010"
+    },
+    {
+      "git_blob_oid": "865a37d86e9df381419b74295c2770b822a3bd0e",
+      "mode": "100755",
+      "path": "static/tuto/proxy-prefs.png",
+      "sha256": "70c30c166915aa41633ac0f3000d8c228140d03d60ac409894d942c0316f2225"
+    },
+    {
+      "git_blob_oid": "b168f5c63912eb58dbc9865432bd6cb652b07193",
+      "mode": "100755",
+      "path": "static/tuto/quadruped-orientation.jpg",
+      "sha256": "a73847726d20641f2cc4b9f2c1c175e42a48df63d68ad2b9f43a31dd2238e9d7"
+    },
+    {
+      "git_blob_oid": "0dfeccd2d95c67bc8233642a5b7527f8694cfa21",
+      "mode": "100755",
+      "path": "static/tuto/spatial-calibration.jpg",
+      "sha256": "acb853be36519fc1f2e0e7f839a48c1355528dce1c03392e4a1905793f90cebb"
+    },
+    {
+      "git_blob_oid": "79dbb24e39ce44618443890106fe738da172b6c7",
+      "mode": "100755",
+      "path": "static/tuto/theme-prefs.png",
+      "sha256": "404f439feedd04eec69dbcb8c79757addde0a1e8d00cbbcd07c9510b175678d7"
+    },
+    {
+      "git_blob_oid": "494b4faf38b67815d4b4655e64c6415909c763b6",
+      "mode": "100755",
+      "path": "static/tuto/view-3d.jpg",
+      "sha256": "1c0f8f2cf2ea196b583c92886fbac067d84bc905d28a18a49cc27328b672c17d"
+    },
+    {
+      "git_blob_oid": "c4a1ede1aff933992274dd4d9605db754c37fbba",
+      "mode": "100755",
+      "path": "static/tuto/zoom-actions.jpg",
+      "sha256": "7cc103c0e14f223b3d79bf106299f7a32599a83e84b83c49ea10ad1982a2ce20"
+    }
+  ],
+  "generated_at_utc_runner_clock": "2026-11-13T19:00:56.862436+00:00",
+  "limits": [
+    "Git author and timestamp fields are declared metadata, not verified identity or trusted time.",
+    "Hashes identify recorded bytes; they do not prove authorship, originality, ownership or infringement.",
+    "The report contains paths and hashes, not source-file contents.",
+    "The runner clock is not a trusted timestamp authority.",
+    "Third-party and joint contributions retain applicable rights and licenses.",
+    "The ledger branch is versioned evidence, not immutable storage.",
+    "Only this repository and triggered refs are covered."
+  ],
+  "manifest_type": "AEGIS_GITHUB_IP_SHIELD_PROVENANCE",
+  "manifest_version": "1.0",
+  "ref": "refs/heads/aegis/ip-shield-bootstrap-2026-11-13",
+  "ref_name": "aegis/ip-shield-bootstrap-2026-11-13",
+  "repository": "irstabyjorge/nroduit.github.io",
+  "tree": "8ae3f61c9c8ce77d129e201b82dd4bda82b6c768",
+  "workflow_run_attempt": "1",
+  "workflow_run_id": "43487542975"
+}
